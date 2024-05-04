@@ -11,18 +11,18 @@ Basicly the projects demonstare the best practices of software engineering and m
 
 ## Code flow 
    1. churn_library.py
-      1.0 fisrt the config/params.py file is imported to get the configuration parameters
-      1.1 load_data from data directory and and reurtn the data frame 
-      1.2  endodeing some columns that are not numerical
-      1.3 create images of input data statistics 
-      1.3  feature engineering to create new features also to split the data into train and test
-      1.4 train the model using logistic regression and random forest classifier
-      1.5 save the model to models directory
-      1.6 create images of model results: classification reports and feature importance plots
+      - 1.0 fisrt the config/params.py file is imported to get the configuration parameters
+      - 1.1 load_data from data directory and and reurtn the data frame 
+      - 1.2  endodeing some columns that are not numerical
+      - 1.3 create images of input data statistics 
+      - 1.3  feature engineering to create new features also to split the data into train  and test
+      - 1.4 train the model using logistic regression and random forest classifier
+      - 1.5 save the model to models directory
+      - 1.6 create images of model results: classification reports and feature importance plots
     2. churn_script_logging_and_tests.py
-        2.0 fisrt the config/params.py file is imported to get the configuration parameters
-        2.1 test the functions in churn_library.py using pytest
-        2.2 log the results of the tests to logs/results.log file
+      - 2.0 fisrt the config/params.py file is imported to get the configuration parameters
+      - 2.1 test the functions in churn_library.py using pytest
+      - 2.2 log the results of the tests to logs/results.log file
 
 ## Running Files
   To run the project, follow the steps below:
