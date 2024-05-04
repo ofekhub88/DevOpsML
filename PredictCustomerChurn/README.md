@@ -13,7 +13,9 @@ Basicly the projects demonstare the best practices of software engineering and m
     1. Clone the repository
     2. Install the required libraries using the requirements.txt file
     3. Run the churn_script_logging_and_tests.py file
-   `python churn_script_logging_and_tests.py`
+   `bash
+   python churn_script_logging_and_tests.py
+   `
     4. Run the churn_library.py file
    `ipython churn_library.py`
 
