@@ -5,8 +5,9 @@
 ## Project Description
 The project is about predicting customer churn for a bank. The data is from a bank and contains information about the customers. The goal is to predict whether a customer will churn or not. The project is divided into 4 parts:
 Basicly the projects demonstare the best practices of software engineering and machine learning. The project is divided into 2 main parts:
-1. Coee Quality , which focus on writing clean and modular code.
-2. Testing , which focus on writing tests to ensure the code is working as expected.
+1. Code Quality , which focus on writing clean and modular code.
+2. add documentation to the code to make it easier to understand and maintain.
+3. Testing , which focus on writing tests to ensure the code is working as expected.
 
 ## progrum flow 
    1. churn_library.py
