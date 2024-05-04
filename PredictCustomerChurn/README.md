@@ -9,7 +9,7 @@ Basicly the projects demonstare the best practices of software engineering and m
 2. add documentation to the code to make it easier to understand and maintain.
 3. Testing , which focus on writing tests to ensure the code is working as expected.
 
-## progrum flow 
+## Code flow 
    1. churn_library.py
       1.0 fisrt the config/params.py file is imported to get the configuration parameters
       1.1 load_data from data directory and and reurtn the data frame 
@@ -30,7 +30,7 @@ Basicly the projects demonstare the best practices of software engineering and m
     2. Install the required libraries using the requirements.txt file
     3. Run the churn_script_logging_and_tests.py file
    ```bash
-      python churn_script_logging_and_tests.py
+      pytest churn_script_logging_and_tests.py
    ```
     4. Run the churn_library.py file
    ```bash 
