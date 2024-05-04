@@ -1,0 +1,18 @@
+root - INFO - Starting Churn Library
+root - INFO - Training mode
+root - INFO - Start encodeding category columns
+root - INFO - Encoding complete
+root - INFO - Start feature engineering
+root - INFO -    Customer_Age  Dependent_count  Months_on_book  ...  Marital_Status_Churn  Income_Category_Churn  Card_Category_Churn
+0            45                3              39  ...              0.151269               0.134807             0.160979
+1            49                5              44  ...              0.169414               0.171862             0.160979
+2            51                3              36  ...              0.151269               0.157655             0.160979
+3            40                4              34  ...              0.172230               0.171862             0.160979
+4            40                3              21  ...              0.151269               0.134807             0.160979
+
+[5 rows x 19 columns]
+root - INFO - Feature engineering complete
+root - INFO - Training Random Forest Classifier
+root - INFO - Completed training of Logistic Regression Classifier
+root - INFO - Training Logistic Regression Classifier
+root - INFO - Completed training of Logistic Regression Classifier
