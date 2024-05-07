@@ -284,7 +284,7 @@ def generate_roc(lrc,cv_rfc, x_test, y_test):
     plt.figure(figsize=(15, 8))
     ax = plt.gca()
     # generate the roc curve for the random forest classifier
-    rfc_disp = plot_roc_curve(cv_rfc.best_estimator_, x_test, y_test, ax=ax, alpha=0.8)
+    rfc_disp = plot_roc_curve(cv_rfc, x_test, y_test, ax=ax, alpha=0.8)
     lrc_plot.plot(ax=ax, alpha=0.8)
     # save the roc curve
     plt.savefig(cfgp.image_results_path + "/roc_curve.png")

@@ -12,3 +12,6 @@ root - INFO -    Customer_Age  Dependent_count  Months_on_book  ...  Marital_Sta
 [5 rows x 19 columns]
 root - INFO - Feature engineering complete
 root - INFO - Training Random Forest Classifier
+root - INFO - Completed training of Logistic Regression Classifier
+root - INFO - Training Logistic Regression Classifier
+root - INFO - Completed training of Logistic Regression Classifier
