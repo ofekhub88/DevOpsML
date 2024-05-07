@@ -1,5 +1,7 @@
 """
-This script is used to test the functions in the churn_library.py file.
+    This script is used to test the functions in the churn_library.py file.
+    Author: M o 
+    Data: 07 May 20242
 
 """
 

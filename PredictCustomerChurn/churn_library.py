@@ -8,10 +8,12 @@
     6. Store the models
     7. Store the classification reports as images
     8. Store the feature importance plots as images
+    Author: M o 
+    Data: 07 May 20242
 
 '''
 
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report,plot_roc_curve
 from sklearn.model_selection import GridSearchCV
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
@@ -92,9 +94,11 @@ def perform_eda(df):
     # generate a heatmap of the correlation between the columns
     plt.figure(figsize=(20, 10))
     sns.heatmap(df.corr(), annot=False, cmap="Dark2_r", linewidths=2)
-    plt.savefig(cfgp.image_eda_path + "/correlation_heatmap.png")
+    plt.savefig(cfgp.image_eda_path + "/Correlation_heatmap.png")
+
     logging.info(
         "EDA complete. Figures saved to images folder %s", cfgp.image_eda_path)
+
 
 
 def encoder_helper(df, category_lst, response):
@@ -248,6 +252,28 @@ def feature_importance_plot(model, x_data, output_pth):
     plt.xticks(rotation=90)
     plt.savefig(output_pth)
 
+def generate_roc(lrc,cv_rfc, x_test, y_test):
+    """
+    generate the roc curve for the model and store it in output_pth
+    input:
+            model: model object
+            x_test: x testing data
+            y_test: y testing data
+
+    output:
+             None
+    """
+    # generate the roc curve for the logistic regression model
+    lrc_plot = plot_roc_curve(lrc, x_test, y_test)
+    plt.figure(figsize=(15, 8))
+    ax = plt.gca()
+    # generate the roc curve for the random forest classifier
+    rfc_disp = plot_roc_curve(cv_rfc.best_estimator_, x_test, y_test, ax=ax, alpha=0.8)
+    lrc_plot.plot(ax=ax, alpha=0.8)
+    # save the roc curve
+    plt.savefig(cfgp.image_results_path + "/roc_curve.png")
+
+    
 
 def train_models(x_train, x_test, y_train, y_test):
     """
@@ -294,6 +320,9 @@ def train_models(x_train, x_test, y_train, y_test):
     # regression model
     y_train_preds_lr = lrc.predict(x_train)
     y_test_preds_lr = lrc.predict(x_test)
+
+    # generate the roc curve for the random forest classifier
+    generate_roc(lrc, cv_rfc.best_estimator_, x_test, y_test)
 
     # create a classification report for the training and testing data for the
     # random forest and logistic regression models

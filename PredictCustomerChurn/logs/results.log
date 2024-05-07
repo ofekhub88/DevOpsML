@@ -1,5 +1,4 @@
 root - INFO - Starting Churn Library
-root - INFO - Training mode
 root - INFO - Start encodeding category columns
 root - INFO - Encoding complete
 root - INFO - Start feature engineering
