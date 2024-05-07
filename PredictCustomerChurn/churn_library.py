@@ -64,10 +64,16 @@ def perform_eda(df):
     plt.figure(figsize=(20, 10))
     df["Churn"].hist()
     plt.savefig(cfgp.image_eda_path + "/churn_hist.png")
+    plt.show()
+    plt.close()
     # generate a histogram of the age column
     plt.figure(figsize=(20, 10))
+    plt.show()
+    plt.close()
     df["Customer_Age"].hist()
     plt.savefig(cfgp.image_eda_path + "/age_hist.png")
+    plt.show()
+    plt.close()
     # generate a normalized stat of the income column
     plt.figure(figsize=(20, 10))
     df.Marital_Status.value_counts("normalize").plot(
@@ -76,6 +82,8 @@ def perform_eda(df):
     plt.savefig(cfgp.image_eda_path + "/marital_status_bar.png")
     # generate a normmlized stats of the education column
     plt.figure(figsize=(20, 10))
+    plt.show()
+    plt.close()
     df.Education_Level.value_counts("normalize").plot(
         kind="bar",
         color=[
@@ -91,9 +99,14 @@ def perform_eda(df):
     plt.figure(figsize=(20, 10))
     sns.histplot(df["Total_Trans_Ct"], stat="density", kde=True)
     plt.savefig(cfgp.image_eda_path + "/Transaction_count_density.png")
+    plt.show()
+    plt.close()
     # generate a heatmap of the correlation between the columns
     plt.figure(figsize=(20, 10))
     sns.heatmap(df.corr(), annot=False, cmap="Dark2_r", linewidths=2)
+    plt.show()
+    plt.close()
+
     plt.savefig(cfgp.image_eda_path + "/Correlation_heatmap.png")
 
     logging.info(
@@ -219,6 +232,8 @@ def classification_report_image(
         plt.axis("off")
         plt.grid(False)
         plt.savefig(cfgp.image_results_path + "/" + item["filename"])
+        plt.show()
+        plt.close()
 
 
 def feature_importance_plot(model, x_data, output_pth):
@@ -251,7 +266,8 @@ def feature_importance_plot(model, x_data, output_pth):
     )
     plt.xticks(rotation=90)
     plt.savefig(output_pth)
-
+    plt.show()
+    plt.close()
 def generate_roc(lrc,cv_rfc, x_test, y_test):
     """
     generate the roc curve for the model and store it in output_pth
@@ -272,6 +288,8 @@ def generate_roc(lrc,cv_rfc, x_test, y_test):
     lrc_plot.plot(ax=ax, alpha=0.8)
     # save the roc curve
     plt.savefig(cfgp.image_results_path + "/roc_curve.png")
+    plt.show()
+    plt.close()
 
     
 
