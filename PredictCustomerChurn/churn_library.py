@@ -268,6 +268,8 @@ def feature_importance_plot(model, x_data, output_pth):
     plt.savefig(output_pth)
     plt.show()
     plt.close()
+
+    
 def generate_roc(lrc,cv_rfc, x_test, y_test):
     """
     generate the roc curve for the model and store it in output_pth
@@ -279,9 +281,15 @@ def generate_roc(lrc,cv_rfc, x_test, y_test):
     output:
              None
     """
+
+
     # generate the roc curve for the logistic regression model
     lrc_plot = plot_roc_curve(lrc, x_test, y_test)
     plt.figure(figsize=(15, 8))
+    plt.savefig(cfgp.image_results_path + "/roc_lrc.png",dpi=100)
+    lrc_plot.plot(alpha=0.8) 
+    plt.show()
+    plt.close()
     ax = plt.gca()
     # generate the roc curve for the random forest classifier
     rfc_disp = plot_roc_curve(cv_rfc, x_test, y_test, ax=ax, alpha=0.8)
@@ -380,5 +388,6 @@ def main():
     logging.info("Churn Library completed")
 
 
+    
 if __name__ == "__main__":
     main()
