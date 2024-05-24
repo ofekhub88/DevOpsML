@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/489a48c0d93547de8c603ebcb190267d/artifacts
+end_time: 1716541175517
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 489a48c0d93547de8c603ebcb190267d
+run_name: upbeat-mink-42
+run_uuid: 489a48c0d93547de8c603ebcb190267d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716541160779
+status: 4
+tags: []
+user_id: meirof

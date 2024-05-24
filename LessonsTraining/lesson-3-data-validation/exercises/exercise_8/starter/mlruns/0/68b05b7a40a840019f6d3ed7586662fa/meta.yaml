@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/68b05b7a40a840019f6d3ed7586662fa/artifacts
+end_time: 1716541376484
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 68b05b7a40a840019f6d3ed7586662fa
+run_name: funny-snipe-594
+run_uuid: 68b05b7a40a840019f6d3ed7586662fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716541373104
+status: 4
+tags: []
+user_id: meirof

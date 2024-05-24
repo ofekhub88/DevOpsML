@@ -1,0 +1,19 @@
+[1mcollected 1 item                                                                                                                                                        
+test_data.py::test_kolmogorov_smirnov danceability 40 0.9157517178427169
+energy 40 0.9400173589614607
+loudness 40 0.9415310683158982
+speechiness 40 0.880958083303578
+acousticness 40 0.4877608374694157
+instrumentalness 40 0.28865442077103864
+liveness 40 0.8932744985866992
+valence 40 0.19106088119903952
+tempo 40 0.12272216606253528
+duration_ms 40 0.628723868270684
+[32mPASSED
+[33m=========================================================================== warnings summary ============================================================================
+test_data.py: 10 warnings
+  /home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py:2003: DeprecationWarning: np.find_common_type is deprecated.  Please use `np.result_type` or `np.promote_types`.
+  See https://numpy.org/devdocs/release/1.25.0-notes.html and the docs for more information.  (Deprecated NumPy 1.25)
+    dtyp = np.find_common_type([x.dtype, np.float64], [])
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+[33m==================================================================== [32m1 passed[39m, [33m[1m10 warnings[22m in 8.09s =====================================================================

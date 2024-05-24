@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/d616a7ef83e24332bcdb3a3b05e1276c/artifacts
+end_time: 1716541096433
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d616a7ef83e24332bcdb3a3b05e1276c
+run_name: glamorous-hen-442
+run_uuid: d616a7ef83e24332bcdb3a3b05e1276c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716541082167
+status: 4
+tags: []
+user_id: meirof

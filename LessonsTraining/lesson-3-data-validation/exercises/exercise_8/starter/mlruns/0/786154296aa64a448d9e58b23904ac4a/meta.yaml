@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/786154296aa64a448d9e58b23904ac4a/artifacts
+end_time: 1716540777390
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 786154296aa64a448d9e58b23904ac4a
+run_name: luminous-duck-541
+run_uuid: 786154296aa64a448d9e58b23904ac4a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716540763199
+status: 4
+tags: []
+user_id: meirof

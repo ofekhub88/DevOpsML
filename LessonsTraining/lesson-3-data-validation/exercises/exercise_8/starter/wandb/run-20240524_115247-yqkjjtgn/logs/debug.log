@@ -1,0 +1,29 @@
+2024-05-24 11:52:47,237 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-24 11:52:47,237 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Configure stats pid to 26259
+2024-05-24 11:52:47,237 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Loading settings from /home/meirof/.config/wandb/settings
+2024-05-24 11:52:47,237 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/wandb/settings
+2024-05-24 11:52:47,238 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-24 11:52:47,238 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-24 11:52:47,250 WARNING MainThread:26259 [wandb_setup.py:_flush():76] Could not save program above cwd: /home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/pytest
+2024-05-24 11:52:47,251 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': None, 'program_abspath': '/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/pytest', 'program': '/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/pytest'}
+2024-05-24 11:52:47,251 INFO    MainThread:26259 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-24 11:52:47,252 INFO    MainThread:26259 [wandb_init.py:_log_setup():520] Logging user logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20240524_115247-yqkjjtgn/logs/debug.log
+2024-05-24 11:52:47,253 INFO    MainThread:26259 [wandb_init.py:_log_setup():521] Logging internal logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/wandb/run-20240524_115247-yqkjjtgn/logs/debug-internal.log
+2024-05-24 11:52:47,254 INFO    MainThread:26259 [wandb_init.py:init():560] calling init triggers
+2024-05-24 11:52:47,254 INFO    MainThread:26259 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-24 11:52:47,255 INFO    MainThread:26259 [wandb_init.py:init():610] starting backend
+2024-05-24 11:52:47,255 INFO    MainThread:26259 [wandb_init.py:init():614] setting up manager
+2024-05-24 11:52:47,258 INFO    MainThread:26259 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-24 11:52:47,258 INFO    MainThread:26259 [wandb_init.py:init():622] backend started and connected
+2024-05-24 11:52:47,264 INFO    MainThread:26259 [wandb_init.py:init():711] updated telemetry
+2024-05-24 11:52:47,315 INFO    MainThread:26259 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-24 11:52:47,789 INFO    MainThread:26259 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-24 11:52:48,071 INFO    MainThread:26259 [wandb_run.py:_on_init():2405] got version response 
+2024-05-24 11:52:48,072 INFO    MainThread:26259 [wandb_init.py:init():795] starting run threads in backend
+2024-05-24 11:52:48,734 INFO    MainThread:26259 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-24 11:52:48,735 INFO    MainThread:26259 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-24 11:52:48,735 INFO    MainThread:26259 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-24 11:52:48,736 INFO    MainThread:26259 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-24 11:52:48,738 INFO    MainThread:26259 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-24 11:52:56,068 WARNING MsgRouterThr:26259 [router.py:message_loop():77] message_loop has been closed

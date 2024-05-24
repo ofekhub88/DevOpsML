@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/eade9f75a4234792a11e037445d43d44/artifacts
+end_time: 1716541264884
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eade9f75a4234792a11e037445d43d44
+run_name: peaceful-wren-909
+run_uuid: eade9f75a4234792a11e037445d43d44
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716541250364
+status: 3
+tags: []
+user_id: meirof

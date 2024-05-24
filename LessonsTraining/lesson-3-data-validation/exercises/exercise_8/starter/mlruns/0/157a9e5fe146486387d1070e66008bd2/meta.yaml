@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/157a9e5fe146486387d1070e66008bd2/artifacts
+end_time: 1716541474856
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 157a9e5fe146486387d1070e66008bd2
+run_name: upbeat-skunk-849
+run_uuid: 157a9e5fe146486387d1070e66008bd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716541459574
+status: 3
+tags: []
+user_id: meirof

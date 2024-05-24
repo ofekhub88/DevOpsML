@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/cda75c2e10c646dc8203c38356f55977/artifacts
+end_time: 1716541443388
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cda75c2e10c646dc8203c38356f55977
+run_name: nervous-sheep-164
+run_uuid: cda75c2e10c646dc8203c38356f55977
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716541429257
+status: 3
+tags: []
+user_id: meirof

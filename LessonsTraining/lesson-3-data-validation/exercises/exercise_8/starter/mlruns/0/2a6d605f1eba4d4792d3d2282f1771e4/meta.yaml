@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_8/starter/mlruns/0/2a6d605f1eba4d4792d3d2282f1771e4/artifacts
+end_time: 1716541401881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2a6d605f1eba4d4792d3d2282f1771e4
+run_name: suave-smelt-586
+run_uuid: 2a6d605f1eba4d4792d3d2282f1771e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716541398263
+status: 4
+tags: []
+user_id: meirof
