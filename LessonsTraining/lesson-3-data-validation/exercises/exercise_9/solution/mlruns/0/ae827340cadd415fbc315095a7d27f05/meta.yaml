@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/solution/mlruns/0/ae827340cadd415fbc315095a7d27f05/artifacts
+end_time: 1716554744604
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae827340cadd415fbc315095a7d27f05
+run_name: enthused-lark-947
+run_uuid: ae827340cadd415fbc315095a7d27f05
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716554729612
+status: 3
+tags: []
+user_id: meirof

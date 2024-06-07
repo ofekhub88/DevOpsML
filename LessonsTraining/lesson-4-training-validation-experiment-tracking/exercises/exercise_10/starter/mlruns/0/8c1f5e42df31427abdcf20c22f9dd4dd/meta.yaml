@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/8c1f5e42df31427abdcf20c22f9dd4dd/artifacts
+end_time: 1716624111161
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8c1f5e42df31427abdcf20c22f9dd4dd
+run_name: sassy-fly-940
+run_uuid: 8c1f5e42df31427abdcf20c22f9dd4dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716624013375
+status: 4
+tags: []
+user_id: meirof

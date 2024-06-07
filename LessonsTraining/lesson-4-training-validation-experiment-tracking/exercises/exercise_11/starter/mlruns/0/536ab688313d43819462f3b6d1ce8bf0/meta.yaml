@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/536ab688313d43819462f3b6d1ce8bf0/artifacts
+end_time: 1716663466301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 536ab688313d43819462f3b6d1ce8bf0
+run_name: enthused-bat-102
+run_uuid: 536ab688313d43819462f3b6d1ce8bf0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663435475
+status: 3
+tags: []
+user_id: meirof

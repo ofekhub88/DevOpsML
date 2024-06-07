@@ -1,0 +1,41 @@
+2024-05-16 08:50:13,583 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-16 08:50:13,584 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Configure stats pid to 20386
+2024-05-16 08:50:13,585 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Loading settings from /home/meirof/.config/wandb/settings
+2024-05-16 08:50:13,585 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/wandb/settings
+2024-05-16 08:50:13,585 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-16 08:50:13,585 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-16 08:50:13,586 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-16 08:50:13,586 INFO    MainThread:20386 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-16 08:50:13,587 INFO    MainThread:20386 [wandb_init.py:_log_setup():520] Logging user logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/wandb/run-20240516_085013-wqzl4uj6/logs/debug.log
+2024-05-16 08:50:13,587 INFO    MainThread:20386 [wandb_init.py:_log_setup():521] Logging internal logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/solution/wandb/run-20240516_085013-wqzl4uj6/logs/debug-internal.log
+2024-05-16 08:50:13,588 INFO    MainThread:20386 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f3529db3220>
+2024-05-16 08:50:13,588 INFO    MainThread:20386 [wandb_init.py:init():560] calling init triggers
+2024-05-16 08:50:13,589 INFO    MainThread:20386 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-16 08:50:13,589 INFO    MainThread:20386 [wandb_init.py:init():610] starting backend
+2024-05-16 08:50:13,589 INFO    MainThread:20386 [wandb_init.py:init():614] setting up manager
+2024-05-16 08:50:13,595 INFO    MainThread:20386 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-16 08:50:13,597 INFO    MainThread:20386 [wandb_init.py:init():622] backend started and connected
+2024-05-16 08:50:13,618 INFO    MainThread:20386 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-16 08:50:13,622 INFO    MainThread:20386 [wandb_run.py:_label_probe_notebook():1338] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-05-16 08:50:13,622 INFO    MainThread:20386 [wandb_init.py:init():711] updated telemetry
+2024-05-16 08:50:13,799 INFO    MainThread:20386 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-16 08:50:14,274 INFO    MainThread:20386 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-16 08:50:14,615 INFO    MainThread:20386 [wandb_run.py:_on_init():2405] got version response 
+2024-05-16 08:50:14,616 INFO    MainThread:20386 [wandb_init.py:init():795] starting run threads in backend
+2024-05-16 08:50:19,043 INFO    MainThread:20386 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-16 08:50:19,044 INFO    MainThread:20386 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-16 08:50:19,044 INFO    MainThread:20386 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-16 08:50:19,044 INFO    MainThread:20386 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-16 08:50:19,047 INFO    MainThread:20386 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-16 08:50:19,047 INFO    MainThread:20386 [jupyter.py:_save_ipynb():384] looking for notebook: EDA-jvsc-22566f38-c1e1-49d0-9dec-5655ad22e82089104898-5370-46f0-9ab3-397d015bee68.ipynb
+2024-05-16 08:50:19,047 INFO    MainThread:20386 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:50:23,594 INFO    MainThread:20386 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:50:24,541 INFO    MainThread:20386 [jupyter.py:_save_ipynb():384] looking for notebook: EDA-jvsc-22566f38-c1e1-49d0-9dec-5655ad22e82089104898-5370-46f0-9ab3-397d015bee68.ipynb
+2024-05-16 08:50:24,541 INFO    MainThread:20386 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:50:26,092 INFO    MainThread:20386 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:50:26,795 INFO    MainThread:20386 [jupyter.py:_save_ipynb():384] looking for notebook: EDA-jvsc-22566f38-c1e1-49d0-9dec-5655ad22e82089104898-5370-46f0-9ab3-397d015bee68.ipynb
+2024-05-16 08:50:26,796 INFO    MainThread:20386 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:50:30,340 INFO    MainThread:20386 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:51:15,179 INFO    MainThread:20386 [jupyter.py:_save_ipynb():384] looking for notebook: EDA-jvsc-22566f38-c1e1-49d0-9dec-5655ad22e82089104898-5370-46f0-9ab3-397d015bee68.ipynb
+2024-05-16 08:51:15,180 INFO    MainThread:20386 [wandb_init.py:_pause_backend():431] pausing backend

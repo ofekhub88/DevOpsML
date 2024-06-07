@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/dc9a7b45e266452c8ffc1463a4a78918/artifacts
+end_time: 1716666031209
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc9a7b45e266452c8ffc1463a4a78918
+run_name: unruly-trout-581
+run_uuid: dc9a7b45e266452c8ffc1463a4a78918
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716666011014
+status: 3
+tags: []
+user_id: meirof

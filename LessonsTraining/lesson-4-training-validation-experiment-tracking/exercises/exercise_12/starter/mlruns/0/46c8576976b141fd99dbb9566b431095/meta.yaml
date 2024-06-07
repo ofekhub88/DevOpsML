@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/46c8576976b141fd99dbb9566b431095/artifacts
+end_time: 1716666787150
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46c8576976b141fd99dbb9566b431095
+run_name: wise-crow-115
+run_uuid: 46c8576976b141fd99dbb9566b431095
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716666740097
+status: 3
+tags: []
+user_id: meirof

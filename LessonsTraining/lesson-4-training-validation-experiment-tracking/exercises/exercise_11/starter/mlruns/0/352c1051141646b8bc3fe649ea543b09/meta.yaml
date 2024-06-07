@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/352c1051141646b8bc3fe649ea543b09/artifacts
+end_time: 1716659628864
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 352c1051141646b8bc3fe649ea543b09
+run_name: rogue-turtle-849
+run_uuid: 352c1051141646b8bc3fe649ea543b09
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716659582044
+status: 3
+tags: []
+user_id: meirof

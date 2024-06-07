@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/1298c3da9b734aee987435554a99d213/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1298c3da9b734aee987435554a99d213
+run_name: abundant-snail-379
+run_uuid: 1298c3da9b734aee987435554a99d213
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715835392826
+status: 1
+tags: []
+user_id: meirof

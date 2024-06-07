@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-05-15T23:19:23.825971",
+    "startedAt": "2024-05-15T23:19:22.847052",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "iris.csv:latest",
+        "--artifact_name",
+        "iris_clenaed.csv",
+        "--artifact_type",
+        "processed_data",
+        "--artifact_description",
+        "Out put data"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/process_data/run.py",
+    "git": {
+        "remote": "https://github.com/ofekhub88/DevOpsML.git",
+        "commit": "a23687aad30e10cc5145625d60ddcff197b5d328"
+    },
+    "email": "meirof@amdocs.com",
+    "root": "/mnt/c/wsl/mount/Udacity/DevOpsML",
+    "host": "meirof02",
+    "username": "meirof",
+    "executable": "/home/meirof/miniconda3.10/envs/mlflow-b6df47da78c40d2d2afc610671891643e4002d4e/bin/python"
+}

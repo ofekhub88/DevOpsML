@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/e11a84d9178744dab29e259431cf2600/artifacts
+end_time: 1716401022747
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e11a84d9178744dab29e259431cf2600
+run_name: nimble-wren-321
+run_uuid: e11a84d9178744dab29e259431cf2600
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716401020879
+status: 4
+tags: []
+user_id: meirof

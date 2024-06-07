@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/31f18f47e86b4080abce72c36987f125/artifacts
+end_time: 1715853915668
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 31f18f47e86b4080abce72c36987f125
+run_name: dapper-snail-990
+run_uuid: 31f18f47e86b4080abce72c36987f125
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715853901842
+status: 3
+tags: []
+user_id: meirof

@@ -39,7 +39,7 @@ def go(config: DictConfig):
             "input_artifact": "iris.csv:latest",
             "artifact_name": "iris_clenaed.csv",
             "artifact_type": "processed_data",
-            "artifact_description":  "Out put data"
+            "artifact_description": "Out put data"
 
         },
     )

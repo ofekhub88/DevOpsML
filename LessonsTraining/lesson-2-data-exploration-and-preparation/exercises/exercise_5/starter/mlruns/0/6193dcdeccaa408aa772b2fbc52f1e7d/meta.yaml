@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/6193dcdeccaa408aa772b2fbc52f1e7d/artifacts
+end_time: 1715852979311
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6193dcdeccaa408aa772b2fbc52f1e7d
+run_name: delicate-pug-240
+run_uuid: 6193dcdeccaa408aa772b2fbc52f1e7d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715852918889
+status: 4
+tags: []
+user_id: meirof

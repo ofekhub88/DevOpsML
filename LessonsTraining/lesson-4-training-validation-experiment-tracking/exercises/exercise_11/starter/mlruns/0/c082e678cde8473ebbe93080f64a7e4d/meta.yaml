@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c082e678cde8473ebbe93080f64a7e4d/artifacts
+end_time: 1716662718103
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c082e678cde8473ebbe93080f64a7e4d
+run_name: respected-snake-434
+run_uuid: c082e678cde8473ebbe93080f64a7e4d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662689661
+status: 3
+tags: []
+user_id: meirof

@@ -3,6 +3,7 @@ import argparse
 import logging
 import pandas as pd
 import wandb
+import os
 import mlflow.sklearn
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_auc_score, plot_confusion_matrix
@@ -29,7 +30,8 @@ def go(args):
     model_export_path = run.use_artifact(args.model_export).download()
 
     ## YOUR CODE HERE
-    pipe = mlflow.sklearn.load_model(model_export_path)
+    #pipe = mlflow.sklearn.load_model(model_export_path)
+    pipe = mlflow.sklearn.load_model(os.path.join(model_export_path, "model_export"))
 
     ## YOUR CODE HERE
     pred_proba = pipe.predict_proba(X_test)

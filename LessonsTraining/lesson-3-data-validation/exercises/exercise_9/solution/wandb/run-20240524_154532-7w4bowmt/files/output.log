@@ -1,0 +1,13 @@
+[1m========================================================================== test session starts ==========================================================================
+platform linux -- Python 3.9.19, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/solution
+[1mcollected 1 item                                                                                                                                                        
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[33m=========================================================================== warnings summary ============================================================================
+test_data.py: 10 warnings
+  /home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/scipy/stats/_distn_infrastructure.py:2003: DeprecationWarning: np.find_common_type is deprecated.  Please use `np.result_type` or `np.promote_types`.
+  See https://numpy.org/devdocs/release/1.25.0-notes.html and the docs for more information.  (Deprecated NumPy 1.25)
+    dtyp = np.find_common_type([x.dtype, np.float64], [])
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+[33m==================================================================== [32m1 passed[39m, [33m[1m10 warnings[22m in 3.76s =====================================================================

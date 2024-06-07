@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/16724380135e433b92477326f332bc04/artifacts
+end_time: 1716663526010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16724380135e433b92477326f332bc04
+run_name: delicate-bear-999
+run_uuid: 16724380135e433b92477326f332bc04
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663497324
+status: 3
+tags: []
+user_id: meirof

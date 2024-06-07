@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/d53b3127593f449cb3e3f4c6297a4939/artifacts
+end_time: 1716553293975
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d53b3127593f449cb3e3f4c6297a4939
+run_name: zealous-gull-466
+run_uuid: d53b3127593f449cb3e3f4c6297a4939
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716553259831
+status: 4
+tags: []
+user_id: meirof

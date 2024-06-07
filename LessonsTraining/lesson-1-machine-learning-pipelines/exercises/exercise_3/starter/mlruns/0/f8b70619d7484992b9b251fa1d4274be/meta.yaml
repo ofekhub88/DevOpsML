@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/f8b70619d7484992b9b251fa1d4274be/artifacts
+end_time: 1715807080945
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8b70619d7484992b9b251fa1d4274be
+run_name: illustrious-kit-76
+run_uuid: f8b70619d7484992b9b251fa1d4274be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715806990876
+status: 4
+tags: []
+user_id: meirof

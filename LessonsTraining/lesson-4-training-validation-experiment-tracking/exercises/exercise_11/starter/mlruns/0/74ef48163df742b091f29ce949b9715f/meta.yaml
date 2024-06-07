@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/74ef48163df742b091f29ce949b9715f/artifacts
+end_time: 1716662102358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 74ef48163df742b091f29ce949b9715f
+run_name: delightful-calf-641
+run_uuid: 74ef48163df742b091f29ce949b9715f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662080070
+status: 3
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/26b9ad39477249a29e5dcc0644c569cf/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 26b9ad39477249a29e5dcc0644c569cf
+run_name: ambitious-dove-246
+run_uuid: 26b9ad39477249a29e5dcc0644c569cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661651086
+status: 1
+tags: []
+user_id: meirof

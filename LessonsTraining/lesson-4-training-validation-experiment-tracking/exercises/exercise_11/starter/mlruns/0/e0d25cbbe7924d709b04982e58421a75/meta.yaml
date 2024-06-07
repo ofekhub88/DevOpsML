@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/e0d25cbbe7924d709b04982e58421a75/artifacts
+end_time: 1716661288334
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e0d25cbbe7924d709b04982e58421a75
+run_name: fun-sloth-819
+run_uuid: e0d25cbbe7924d709b04982e58421a75
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661267692
+status: 3
+tags: []
+user_id: meirof

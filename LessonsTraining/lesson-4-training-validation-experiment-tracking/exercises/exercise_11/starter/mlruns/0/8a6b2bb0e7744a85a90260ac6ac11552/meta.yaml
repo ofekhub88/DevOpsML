@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/8a6b2bb0e7744a85a90260ac6ac11552/artifacts
+end_time: 1716659316256
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8a6b2bb0e7744a85a90260ac6ac11552
+run_name: smiling-lark-174
+run_uuid: 8a6b2bb0e7744a85a90260ac6ac11552
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716659281077
+status: 4
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/91547c5921354138b47befbaef418572/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 91547c5921354138b47befbaef418572
+run_name: honorable-vole-570
+run_uuid: 91547c5921354138b47befbaef418572
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715814961458
+status: 1
+tags: []
+user_id: meirof

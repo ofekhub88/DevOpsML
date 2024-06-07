@@ -1,0 +1,1 @@
+'random_forest_pipeline.random_forest.max_depth=range(12,15,1) random_forest_pipeline.tfidf.max_features=range(5,15,5) -m'

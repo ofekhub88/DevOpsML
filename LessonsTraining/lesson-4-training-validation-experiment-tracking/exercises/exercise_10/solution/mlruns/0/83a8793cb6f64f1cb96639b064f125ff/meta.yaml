@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/solution/mlruns/0/83a8793cb6f64f1cb96639b064f125ff/artifacts
+end_time: 1716623945118
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 83a8793cb6f64f1cb96639b064f125ff
+run_name: bald-asp-534
+run_uuid: 83a8793cb6f64f1cb96639b064f125ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716623864398
+status: 4
+tags: []
+user_id: meirof

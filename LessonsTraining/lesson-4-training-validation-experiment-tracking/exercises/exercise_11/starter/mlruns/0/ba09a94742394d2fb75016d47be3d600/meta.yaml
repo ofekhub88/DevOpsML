@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ba09a94742394d2fb75016d47be3d600/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ba09a94742394d2fb75016d47be3d600
+run_name: magnificent-wasp-525
+run_uuid: ba09a94742394d2fb75016d47be3d600
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661977613
+status: 1
+tags: []
+user_id: meirof

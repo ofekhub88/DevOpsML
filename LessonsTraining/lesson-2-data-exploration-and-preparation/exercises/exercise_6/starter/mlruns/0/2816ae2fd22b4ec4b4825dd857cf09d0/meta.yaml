@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/2816ae2fd22b4ec4b4825dd857cf09d0/artifacts
+end_time: 1716400999940
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2816ae2fd22b4ec4b4825dd857cf09d0
+run_name: resilient-cub-358
+run_uuid: 2816ae2fd22b4ec4b4825dd857cf09d0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716400998254
+status: 4
+tags: []
+user_id: meirof

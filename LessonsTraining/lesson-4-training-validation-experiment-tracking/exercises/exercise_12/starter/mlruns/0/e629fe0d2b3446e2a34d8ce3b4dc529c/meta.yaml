@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/e629fe0d2b3446e2a34d8ce3b4dc529c/artifacts
+end_time: 1716666787342
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e629fe0d2b3446e2a34d8ce3b4dc529c
+run_name: dapper-hen-850
+run_uuid: e629fe0d2b3446e2a34d8ce3b4dc529c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716666738031
+status: 3
+tags: []
+user_id: meirof

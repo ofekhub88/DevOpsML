@@ -1,0 +1,61 @@
+2024-05-25 21:51:50,449 INFO    StreamThr :21016 [internal.py:wandb_internal():85] W&B internal server running at pid: 21016, started at: 2024-05-25 21:51:50.448331
+2024-05-25 21:51:50,451 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: status
+2024-05-25 21:51:50,454 INFO    WriterThread:21016 [datastore.py:open_for_write():87] open: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/run-19orj2m3.wandb
+2024-05-25 21:51:50,456 DEBUG   SenderThread:21016 [sender.py:send():378] send: header
+2024-05-25 21:51:50,518 DEBUG   SenderThread:21016 [sender.py:send():378] send: run
+2024-05-25 21:51:50,995 INFO    SenderThread:21016 [dir_watcher.py:__init__():211] watching files in: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files
+2024-05-25 21:51:50,996 INFO    SenderThread:21016 [sender.py:_start_run_threads():1123] run started: 19orj2m3 with start time 1716663110.448706
+2024-05-25 21:51:51,048 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: check_version
+2024-05-25 21:51:51,049 DEBUG   SenderThread:21016 [sender.py:send_request():405] send_request: check_version
+2024-05-25 21:51:51,347 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: run_start
+2024-05-25 21:51:51,354 ERROR   HandlerThread:21016 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2024-05-25 21:51:51,355 DEBUG   HandlerThread:21016 [system_info.py:__init__():26] System info init
+2024-05-25 21:51:51,355 DEBUG   HandlerThread:21016 [system_info.py:__init__():41] System info init done
+2024-05-25 21:51:51,356 INFO    HandlerThread:21016 [system_monitor.py:start():194] Starting system monitor
+2024-05-25 21:51:51,357 INFO    SystemMonitor:21016 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-25 21:51:51,357 INFO    HandlerThread:21016 [system_monitor.py:probe():214] Collecting system info
+2024-05-25 21:51:51,359 INFO    SystemMonitor:21016 [interfaces.py:start():188] Started cpu monitoring
+2024-05-25 21:51:51,360 INFO    SystemMonitor:21016 [interfaces.py:start():188] Started disk monitoring
+2024-05-25 21:51:51,362 INFO    SystemMonitor:21016 [interfaces.py:start():188] Started memory monitoring
+2024-05-25 21:51:51,362 INFO    SystemMonitor:21016 [interfaces.py:start():188] Started network monitoring
+2024-05-25 21:51:51,363 DEBUG   HandlerThread:21016 [system_info.py:probe():150] Probing system
+2024-05-25 21:51:51,384 DEBUG   HandlerThread:21016 [system_info.py:_probe_git():135] Probing git
+2024-05-25 21:51:51,434 DEBUG   HandlerThread:21016 [system_info.py:_probe_git():143] Probing git done
+2024-05-25 21:51:51,434 DEBUG   HandlerThread:21016 [system_info.py:probe():198] Probing system done
+2024-05-25 21:51:51,434 DEBUG   HandlerThread:21016 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.10', 'python': '3.8.19', 'heartbeatAt': '2024-05-25T18:51:51.363902', 'startedAt': '2024-05-25T18:51:50.399356', 'docker': None, 'cuda': None, 'args': ('--train_data', 'exercise_6/data_train.csv:latest', '--model_config', '/mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/multirun/2024-05-25/21-38-20/33/random_forest_config.yml'), 'state': 'running', 'program': 'run.py', 'codePathLocal': 'run.py', 'codePath': 'LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'git': {'remote': 'https://github.com/ofekhub88/DevOpsML.git', 'commit': '3d8648ac35c21e22e78e51140b07f75158ebd40f'}, 'email': 'meirof@amdocs.com', 'root': '/mnt/c/wsl/mount/Udacity/DevOpsML', 'host': 'meirof02', 'username': 'meirof', 'executable': '/home/meirof/miniconda3.10/envs/mlflow-76a4a01d2c8bcb9f9c099f0c11830aa63a599cab/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2611.211, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 250.92389297485352, 'used': 38.87430953979492}}, 'memory': {'total': 15.478584289550781}}
+2024-05-25 21:51:51,434 INFO    HandlerThread:21016 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-25 21:51:51,435 INFO    HandlerThread:21016 [system_monitor.py:probe():227] Publishing system info
+2024-05-25 21:51:51,435 DEBUG   HandlerThread:21016 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-25 21:51:52,000 INFO    Thread-12 :21016 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files/conda-environment.yaml
+2024-05-25 21:51:52,055 DEBUG   HandlerThread:21016 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-25 21:51:52,073 INFO    HandlerThread:21016 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-25 21:51:52,076 DEBUG   SenderThread:21016 [sender.py:send():378] send: files
+2024-05-25 21:51:52,077 INFO    SenderThread:21016 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-25 21:51:52,105 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-25 21:51:52,106 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-25 21:51:52,106 DEBUG   SenderThread:21016 [sender.py:send_request():405] send_request: python_packages
+2024-05-25 21:51:52,109 DEBUG   SenderThread:21016 [sender.py:send_request():405] send_request: stop_status
+2024-05-25 21:51:52,340 DEBUG   SenderThread:21016 [sender.py:send():378] send: telemetry
+2024-05-25 21:51:52,778 INFO    wandb-upload_0:21016 [upload_job.py:push():130] Uploaded file /tmp/tmp96684d90wandb/j52v8bnd-wandb-metadata.json
+2024-05-25 21:51:52,950 DEBUG   SenderThread:21016 [sender.py:send():378] send: use_artifact
+2024-05-25 21:51:53,013 INFO    Thread-12 :21016 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files/wandb-metadata.json
+2024-05-25 21:51:53,015 INFO    Thread-12 :21016 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files/requirements.txt
+2024-05-25 21:51:53,018 INFO    Thread-12 :21016 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files/output.log
+2024-05-25 21:51:53,657 DEBUG   SenderThread:21016 [sender.py:send():378] send: config
+2024-05-25 21:51:55,019 INFO    Thread-12 :21016 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files/output.log
+2024-05-25 21:51:55,659 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: status_report
+2024-05-25 21:52:00,660 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: status_report
+2024-05-25 21:52:05,661 DEBUG   HandlerThread:21016 [handler.py:handle_request():158] handle_request: status_report
+2024-05-25 21:52:06,973 DEBUG   SenderThread:21016 [sender.py:send():378] send: telemetry
+2024-05-25 21:52:06,974 DEBUG   SenderThread:21016 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 21:52:06,978 INFO    SenderThread:21016 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 21:52:06,980 DEBUG   SenderThread:21016 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 21:52:06,987 INFO    SenderThread:21016 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 21:52:07,102 INFO    Thread-12 :21016 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files/wandb-summary.json
+2024-05-25 21:52:09,122 INFO    Thread-12 :21016 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_215150-19orj2m3/files/output.log
+2024-05-25 21:52:09,364 INFO    cpu       :21016 [interfaces.py:monitor():138] Process cpu has exited.
+2024-05-25 21:52:09,365 DEBUG   SystemMonitor:21016 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-25 21:52:09,366 DEBUG   SystemMonitor:21016 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-25 21:52:09,366 DEBUG   SystemMonitor:21016 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-25 21:52:09,368 DEBUG   SenderThread:21016 [sender.py:send():378] send: stats
+2024-05-25 21:52:11,354 INFO    MainThread:21016 [internal.py:handle_exit():75] Internal process exited

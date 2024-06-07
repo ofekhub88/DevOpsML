@@ -1,0 +1,16 @@
+[1m========================================================================== test session starts ==========================================================================
+platform linux -- Python 3.9.19, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter
+[1mcollected 1 item                                                                                                                                                        
+test_data.py::test_kolmogorov_smirnov [31mFAILED
+=============================================================================== FAILURES ================================================================================
+[31m[1m________________________________________________________________________ test_kolmogorov_smirnov ________________________________________________________________________
+ks_alpha = '0.05'
+    def test_kolmogorov_smirnov(ks_alpha):
+>       sample1, sample2 = data
+[31m[1mE       NameError: name 'data' is not defined
+[31m[1mtest_data.py[39m[22m:8: NameError
+======================================================================== short test summary info ========================================================================
+FAILED test_data.py::test_kolmogorov_smirnov - NameError: name 'data' is not defined
+[31m=========================================================================== [1m1 failed[22m in 1.19s ===========================================================================

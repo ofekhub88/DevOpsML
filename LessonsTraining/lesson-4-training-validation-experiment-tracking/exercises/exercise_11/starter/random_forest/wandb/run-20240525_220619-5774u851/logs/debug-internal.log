@@ -1,0 +1,258 @@
+2024-05-25 22:06:19,666 INFO    StreamThr :2242 [internal.py:wandb_internal():85] W&B internal server running at pid: 2242, started at: 2024-05-25 22:06:19.664553
+2024-05-25 22:06:19,668 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: status
+2024-05-25 22:06:19,673 INFO    WriterThread:2242 [datastore.py:open_for_write():87] open: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/run-5774u851.wandb
+2024-05-25 22:06:19,674 DEBUG   SenderThread:2242 [sender.py:send():378] send: header
+2024-05-25 22:06:19,756 DEBUG   SenderThread:2242 [sender.py:send():378] send: run
+2024-05-25 22:06:20,180 INFO    SenderThread:2242 [dir_watcher.py:__init__():211] watching files in: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files
+2024-05-25 22:06:20,180 INFO    SenderThread:2242 [sender.py:_start_run_threads():1123] run started: 5774u851 with start time 1716663979.665542
+2024-05-25 22:06:20,243 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: check_version
+2024-05-25 22:06:20,243 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: check_version
+2024-05-25 22:06:20,520 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: run_start
+2024-05-25 22:06:20,530 ERROR   HandlerThread:2242 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2024-05-25 22:06:20,531 DEBUG   HandlerThread:2242 [system_info.py:__init__():26] System info init
+2024-05-25 22:06:20,531 DEBUG   HandlerThread:2242 [system_info.py:__init__():41] System info init done
+2024-05-25 22:06:20,532 INFO    HandlerThread:2242 [system_monitor.py:start():194] Starting system monitor
+2024-05-25 22:06:20,532 INFO    SystemMonitor:2242 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-25 22:06:20,532 INFO    HandlerThread:2242 [system_monitor.py:probe():214] Collecting system info
+2024-05-25 22:06:20,533 INFO    SystemMonitor:2242 [interfaces.py:start():188] Started cpu monitoring
+2024-05-25 22:06:20,535 INFO    SystemMonitor:2242 [interfaces.py:start():188] Started disk monitoring
+2024-05-25 22:06:20,535 INFO    SystemMonitor:2242 [interfaces.py:start():188] Started memory monitoring
+2024-05-25 22:06:20,536 INFO    SystemMonitor:2242 [interfaces.py:start():188] Started network monitoring
+2024-05-25 22:06:20,540 DEBUG   HandlerThread:2242 [system_info.py:probe():150] Probing system
+2024-05-25 22:06:20,566 DEBUG   HandlerThread:2242 [system_info.py:_probe_git():135] Probing git
+2024-05-25 22:06:20,631 DEBUG   HandlerThread:2242 [system_info.py:_probe_git():143] Probing git done
+2024-05-25 22:06:20,631 DEBUG   HandlerThread:2242 [system_info.py:probe():198] Probing system done
+2024-05-25 22:06:20,631 DEBUG   HandlerThread:2242 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.10', 'python': '3.8.19', 'heartbeatAt': '2024-05-25T19:06:20.540407', 'startedAt': '2024-05-25T19:06:19.628361', 'docker': None, 'cuda': None, 'args': ('--train_data', 'exercise_6/data_train.csv:latest', '--model_config', '/mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/multirun/2024-05-25/22-02-52/8/random_forest_config.yml'), 'state': 'running', 'program': 'run.py', 'codePathLocal': 'run.py', 'codePath': 'LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'git': {'remote': 'https://github.com/ofekhub88/DevOpsML.git', 'commit': '3d8648ac35c21e22e78e51140b07f75158ebd40f'}, 'email': 'meirof@amdocs.com', 'root': '/mnt/c/wsl/mount/Udacity/DevOpsML', 'host': 'meirof02', 'username': 'meirof', 'executable': '/home/meirof/miniconda3.10/envs/mlflow-76a4a01d2c8bcb9f9c099f0c11830aa63a599cab/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2611.211, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 250.92389297485352, 'used': 38.8745231628418}}, 'memory': {'total': 15.478584289550781}}
+2024-05-25 22:06:20,632 INFO    HandlerThread:2242 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-25 22:06:20,632 INFO    HandlerThread:2242 [system_monitor.py:probe():227] Publishing system info
+2024-05-25 22:06:20,633 DEBUG   HandlerThread:2242 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-25 22:06:21,186 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/conda-environment.yaml
+2024-05-25 22:06:21,304 DEBUG   HandlerThread:2242 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-25 22:06:21,320 INFO    HandlerThread:2242 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-25 22:06:21,323 DEBUG   SenderThread:2242 [sender.py:send():378] send: files
+2024-05-25 22:06:21,323 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-25 22:06:21,354 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-25 22:06:21,355 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-25 22:06:21,355 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: python_packages
+2024-05-25 22:06:21,360 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: stop_status
+2024-05-25 22:06:21,602 DEBUG   SenderThread:2242 [sender.py:send():378] send: telemetry
+2024-05-25 22:06:22,007 INFO    wandb-upload_0:2242 [upload_job.py:push():130] Uploaded file /tmp/tmp2_nh22_gwandb/sr99p113-wandb-metadata.json
+2024-05-25 22:06:22,176 DEBUG   SenderThread:2242 [sender.py:send():378] send: use_artifact
+2024-05-25 22:06:22,193 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/conda-environment.yaml
+2024-05-25 22:06:22,195 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/requirements.txt
+2024-05-25 22:06:22,196 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/output.log
+2024-05-25 22:06:22,196 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/wandb-metadata.json
+2024-05-25 22:06:22,840 DEBUG   SenderThread:2242 [sender.py:send():378] send: config
+2024-05-25 22:06:24,207 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/output.log
+2024-05-25 22:06:24,841 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: status_report
+2024-05-25 22:06:29,842 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: status_report
+2024-05-25 22:06:34,844 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: status_report
+2024-05-25 22:06:35,695 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,696 DEBUG   SenderThread:2242 [sender.py:send():378] send: telemetry
+2024-05-25 22:06:35,696 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,697 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,697 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,699 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,700 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,701 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,701 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,702 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,702 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,702 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,704 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:35,704 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,712 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,713 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,714 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,720 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,721 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,722 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,728 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,729 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,729 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,735 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,736 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,737 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,743 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,744 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,745 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,751 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,752 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,752 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,758 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,759 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,759 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,765 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,766 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,767 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,773 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,774 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,775 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,781 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:35,782 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:35,783 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:35,789 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:36,279 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/wandb-summary.json
+2024-05-25 22:06:37,903 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-25 22:06:37,904 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: stop_status
+2024-05-25 22:06:38,291 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/output.log
+2024-05-25 22:06:39,504 DEBUG   SenderThread:2242 [sender.py:send():378] send: files
+2024-05-25 22:06:39,504 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file media/images/feature_importance_10_c884beb2860eb8bb62ea.png with policy now
+2024-05-25 22:06:39,512 DEBUG   SenderThread:2242 [sender.py:send():378] send: files
+2024-05-25 22:06:39,513 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file media/images/confusion_matrix_10_14050f90f2585d338939.png with policy now
+2024-05-25 22:06:39,513 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: partial_history
+2024-05-25 22:06:39,519 DEBUG   SenderThread:2242 [sender.py:send():378] send: history
+2024-05-25 22:06:39,520 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: summary_record
+2024-05-25 22:06:39,523 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:39,524 DEBUG   SenderThread:2242 [sender.py:send():378] send: exit
+2024-05-25 22:06:39,524 INFO    SenderThread:2242 [sender.py:send_exit():585] handling exit code: 0
+2024-05-25 22:06:39,525 INFO    SenderThread:2242 [sender.py:send_exit():587] handling runtime: 18
+2024-05-25 22:06:39,532 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:39,533 INFO    SenderThread:2242 [sender.py:send_exit():593] send defer
+2024-05-25 22:06:39,533 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,533 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-25 22:06:39,534 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,534 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-25 22:06:39,534 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 1
+2024-05-25 22:06:39,534 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,534 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-25 22:06:39,535 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,535 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-25 22:06:39,535 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 2
+2024-05-25 22:06:39,535 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,535 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-25 22:06:39,535 INFO    HandlerThread:2242 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-25 22:06:39,536 DEBUG   SystemMonitor:2242 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-25 22:06:39,536 INFO    HandlerThread:2242 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-25 22:06:39,536 DEBUG   SystemMonitor:2242 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-25 22:06:39,537 INFO    HandlerThread:2242 [interfaces.py:finish():200] Joined disk monitor
+2024-05-25 22:06:39,537 DEBUG   SystemMonitor:2242 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-25 22:06:39,537 INFO    HandlerThread:2242 [interfaces.py:finish():200] Joined memory monitor
+2024-05-25 22:06:39,538 INFO    HandlerThread:2242 [interfaces.py:finish():200] Joined network monitor
+2024-05-25 22:06:39,538 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,539 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-25 22:06:39,539 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 3
+2024-05-25 22:06:39,539 DEBUG   SenderThread:2242 [sender.py:send():378] send: stats
+2024-05-25 22:06:39,539 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,540 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-25 22:06:39,540 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,540 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-25 22:06:39,541 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 4
+2024-05-25 22:06:39,541 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,541 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-25 22:06:39,542 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,542 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-25 22:06:39,543 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 5
+2024-05-25 22:06:39,543 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,543 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-25 22:06:39,544 DEBUG   SenderThread:2242 [sender.py:send():378] send: summary
+2024-05-25 22:06:39,546 INFO    SenderThread:2242 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-25 22:06:39,547 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,547 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-25 22:06:39,547 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 6
+2024-05-25 22:06:39,547 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,548 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-25 22:06:39,548 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,548 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-25 22:06:39,551 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: status_report
+2024-05-25 22:06:39,755 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 7
+2024-05-25 22:06:39,756 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:39,756 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-25 22:06:39,756 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:39,757 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-25 22:06:40,082 INFO    wandb-upload_0:2242 [upload_job.py:push():130] Uploaded file /tmp/tmp2_nh22_gwandb/l97jtk82-media/images/feature_importance_10_c884beb2860eb8bb62ea.png
+2024-05-25 22:06:40,309 INFO    wandb-upload_1:2242 [upload_job.py:push():130] Uploaded file /tmp/tmp2_nh22_gwandb/zrp04roz-media/images/confusion_matrix_10_14050f90f2585d338939.png
+2024-05-25 22:06:40,312 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/wandb-summary.json
+2024-05-25 22:06:40,313 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/config.yaml
+2024-05-25 22:06:40,314 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/media/images/confusion_matrix_10_14050f90f2585d338939.png
+2024-05-25 22:06:40,319 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/media/images/feature_importance_10_c884beb2860eb8bb62ea.png
+2024-05-25 22:06:40,322 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/media
+2024-05-25 22:06:40,322 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/media/images
+2024-05-25 22:06:40,519 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-25 22:06:41,010 INFO    wandb-upload_1:2242 [upload_job.py:push():130] Uploaded file /tmp/tmp2_nh22_gwandb/obl4v9fs-media/images/feature_importance_10_c884beb2860eb8bb62ea.png
+2024-05-25 22:06:41,136 INFO    wandb-upload_0:2242 [upload_job.py:push():130] Uploaded file /tmp/tmp2_nh22_gwandb/3j7xeog4-media/images/confusion_matrix_10_14050f90f2585d338939.png
+2024-05-25 22:06:41,634 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 8
+2024-05-25 22:06:41,635 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: poll_exit
+2024-05-25 22:06:41,635 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:41,636 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-25 22:06:41,637 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:41,638 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-25 22:06:41,638 INFO    SenderThread:2242 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-25 22:06:41,644 INFO    SenderThread:2242 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-05-25 22:06:41,670 INFO    SenderThread:2242 [job_builder.py:build():541] adding wandb-job metadata file
+2024-05-25 22:06:41,684 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 9
+2024-05-25 22:06:41,684 DEBUG   SenderThread:2242 [sender.py:send():378] send: artifact
+2024-05-25 22:06:41,684 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:41,686 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-25 22:06:42,338 INFO    Thread-12 :2242 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/output.log
+2024-05-25 22:06:42,520 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-25 22:06:42,634 INFO    SenderThread:2242 [sender.py:send_artifact():1467] sent artifact job-https___github.com_ofekhub88_DevOpsML.git_LessonsTraining_l..ent-tracking_exercises_exercise_11_starter_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6ODQ5NzI4NzI3', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3OTA1MDE0OQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODQ5NzI4NzI3', 'versionIndex': 1}}}
+2024-05-25 22:06:42,635 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:42,636 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-25 22:06:42,636 INFO    SenderThread:2242 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-25 22:06:43,371 INFO    SenderThread:2242 [dir_watcher.py:finish():388] scan: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files
+2024-05-25 22:06:43,372 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/conda-environment.yaml conda-environment.yaml
+2024-05-25 22:06:43,375 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/config.yaml config.yaml
+2024-05-25 22:06:43,379 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/output.log output.log
+2024-05-25 22:06:43,383 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/requirements.txt requirements.txt
+2024-05-25 22:06:43,387 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/wandb-metadata.json wandb-metadata.json
+2024-05-25 22:06:43,387 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/wandb-summary.json wandb-summary.json
+2024-05-25 22:06:43,397 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/media/images/confusion_matrix_10_14050f90f2585d338939.png media/images/confusion_matrix_10_14050f90f2585d338939.png
+2024-05-25 22:06:43,397 INFO    SenderThread:2242 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/media/images/feature_importance_10_c884beb2860eb8bb62ea.png media/images/feature_importance_10_c884beb2860eb8bb62ea.png
+2024-05-25 22:06:43,397 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 10
+2024-05-25 22:06:43,398 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: poll_exit
+2024-05-25 22:06:43,398 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:43,398 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-25 22:06:43,398 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:43,398 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-25 22:06:43,399 INFO    SenderThread:2242 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-25 22:06:43,522 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-25 22:06:43,523 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: poll_exit
+2024-05-25 22:06:43,816 INFO    wandb-upload_1:2242 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/conda-environment.yaml
+2024-05-25 22:06:43,817 INFO    wandb-upload_0:2242 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/config.yaml
+2024-05-25 22:06:43,902 INFO    wandb-upload_2:2242 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/output.log
+2024-05-25 22:06:43,934 INFO    wandb-upload_4:2242 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/wandb-summary.json
+2024-05-25 22:06:43,939 INFO    wandb-upload_3:2242 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/files/requirements.txt
+2024-05-25 22:06:44,140 INFO    Thread-11 :2242 [sender.py:transition_state():613] send defer: 11
+2024-05-25 22:06:44,142 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:44,143 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-25 22:06:44,144 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:44,145 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-25 22:06:44,146 INFO    SenderThread:2242 [file_pusher.py:join():175] waiting for file pusher
+2024-05-25 22:06:44,147 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 12
+2024-05-25 22:06:44,148 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:44,149 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-25 22:06:44,150 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:44,151 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-25 22:06:44,151 INFO    SenderThread:2242 [file_stream.py:finish():601] file stream finish called
+2024-05-25 22:06:44,352 INFO    SenderThread:2242 [file_stream.py:finish():605] file stream finish is done
+2024-05-25 22:06:44,353 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 13
+2024-05-25 22:06:44,355 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:44,355 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-25 22:06:44,357 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:44,358 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-25 22:06:44,359 INFO    SenderThread:2242 [sender.py:transition_state():613] send defer: 14
+2024-05-25 22:06:44,361 DEBUG   SenderThread:2242 [sender.py:send():378] send: final
+2024-05-25 22:06:44,361 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: defer
+2024-05-25 22:06:44,362 INFO    HandlerThread:2242 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-25 22:06:44,361 DEBUG   SenderThread:2242 [sender.py:send():378] send: footer
+2024-05-25 22:06:44,364 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: defer
+2024-05-25 22:06:44,364 INFO    SenderThread:2242 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-25 22:06:44,366 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-25 22:06:44,366 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-25 22:06:44,366 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: poll_exit
+2024-05-25 22:06:44,367 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: server_info
+2024-05-25 22:06:44,367 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: poll_exit
+2024-05-25 22:06:44,368 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-25 22:06:44,368 DEBUG   SenderThread:2242 [sender.py:send_request():405] send_request: server_info
+2024-05-25 22:06:44,369 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-25 22:06:44,371 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-25 22:06:44,546 INFO    MainThread:2242 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-25 22:06:44,548 INFO    MainThread:2242 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-25 22:06:44,549 INFO    MainThread:2242 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-25 22:06:44,551 DEBUG   HandlerThread:2242 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-25 22:06:44,552 INFO    HandlerThread:2242 [handler.py:finish():882] shutting down handler
+2024-05-25 22:06:45,368 INFO    WriterThread:2242 [datastore.py:close():296] close: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_220619-5774u851/run-5774u851.wandb
+2024-05-25 22:06:45,546 INFO    SenderThread:2242 [sender.py:finish():1545] shutting down sender
+2024-05-25 22:06:45,548 INFO    SenderThread:2242 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-25 22:06:45,548 INFO    SenderThread:2242 [file_pusher.py:join():175] waiting for file pusher

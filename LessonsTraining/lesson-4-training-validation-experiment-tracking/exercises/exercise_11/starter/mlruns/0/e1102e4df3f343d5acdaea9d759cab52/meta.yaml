@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/e1102e4df3f343d5acdaea9d759cab52/artifacts
+end_time: 1716664100029
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e1102e4df3f343d5acdaea9d759cab52
+run_name: powerful-fowl-441
+run_uuid: e1102e4df3f343d5acdaea9d759cab52
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716664069265
+status: 3
+tags: []
+user_id: meirof

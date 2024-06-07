@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c176329e6f7b4bcb80eb6ca5462803b9/artifacts
+end_time: 1716663348624
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c176329e6f7b4bcb80eb6ca5462803b9
+run_name: bold-newt-797
+run_uuid: c176329e6f7b4bcb80eb6ca5462803b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663321818
+status: 3
+tags: []
+user_id: meirof

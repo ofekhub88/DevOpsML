@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/f9e535202f25463e9d4211d2c19811e2/artifacts
+end_time: 1715807664812
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f9e535202f25463e9d4211d2c19811e2
+run_name: sedate-dog-127
+run_uuid: f9e535202f25463e9d4211d2c19811e2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715807566181
+status: 4
+tags: []
+user_id: meirof

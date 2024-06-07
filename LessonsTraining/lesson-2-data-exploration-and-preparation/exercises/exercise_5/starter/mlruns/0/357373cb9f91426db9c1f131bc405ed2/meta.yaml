@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/357373cb9f91426db9c1f131bc405ed2/artifacts
+end_time: 1715855107606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 357373cb9f91426db9c1f131bc405ed2
+run_name: funny-bear-387
+run_uuid: 357373cb9f91426db9c1f131bc405ed2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715855094316
+status: 3
+tags: []
+user_id: meirof

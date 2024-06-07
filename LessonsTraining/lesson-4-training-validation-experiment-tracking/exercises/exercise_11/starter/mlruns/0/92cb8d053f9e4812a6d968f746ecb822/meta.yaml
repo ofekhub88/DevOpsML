@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/92cb8d053f9e4812a6d968f746ecb822/artifacts
+end_time: 1716660113008
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 92cb8d053f9e4812a6d968f746ecb822
+run_name: big-conch-537
+run_uuid: 92cb8d053f9e4812a6d968f746ecb822
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716660094377
+status: 3
+tags: []
+user_id: meirof

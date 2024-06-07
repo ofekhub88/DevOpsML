@@ -1,0 +1,89 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.11.9",
+    "heartbeatAt": "2024-05-16T09:49:28.015640",
+    "startedAt": "2024-05-16T09:49:27.036877",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "exercise_4/genres_mod.parquet:latest",
+        "--artifact_name",
+        "preprocessed_data.csv",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "cleaned data after preproccess"
+    ],
+    "state": "running",
+    "program": "/mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py",
+    "codePathLocal": "run.py",
+    "codePath": "LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/run.py",
+    "git": {
+        "remote": "https://github.com/ofekhub88/DevOpsML.git",
+        "commit": "a23687aad30e10cc5145625d60ddcff197b5d328"
+    },
+    "email": "meirof@amdocs.com",
+    "root": "/mnt/c/wsl/mount/Udacity/DevOpsML",
+    "host": "meirof02",
+    "username": "meirof",
+    "executable": "/home/meirof/miniconda3.10/envs/mlflow-b9ade785611eadb59d65abeac566d523a1062130/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2611.211,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 250.98248672485352,
+            "used": 42.25111389160156
+        }
+    },
+    "memory": {
+        "total": 15.481483459472656
+    }
+}

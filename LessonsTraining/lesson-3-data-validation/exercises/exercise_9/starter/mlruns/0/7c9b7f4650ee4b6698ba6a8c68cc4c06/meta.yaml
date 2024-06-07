@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/7c9b7f4650ee4b6698ba6a8c68cc4c06/artifacts
+end_time: 1716553397705
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c9b7f4650ee4b6698ba6a8c68cc4c06
+run_name: marvelous-turtle-775
+run_uuid: 7c9b7f4650ee4b6698ba6a8c68cc4c06
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716553386975
+status: 4
+tags: []
+user_id: meirof

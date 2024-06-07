@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/b852296a37a342b5b54d282c558a65fa/artifacts
+end_time: 1716661856564
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b852296a37a342b5b54d282c558a65fa
+run_name: kindly-quail-600
+run_uuid: b852296a37a342b5b54d282c558a65fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661838321
+status: 4
+tags: []
+user_id: meirof

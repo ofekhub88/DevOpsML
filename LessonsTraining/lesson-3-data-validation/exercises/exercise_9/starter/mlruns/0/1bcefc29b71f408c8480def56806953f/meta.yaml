@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/1bcefc29b71f408c8480def56806953f/artifacts
+end_time: 1716554086543
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1bcefc29b71f408c8480def56806953f
+run_name: worried-colt-253
+run_uuid: 1bcefc29b71f408c8480def56806953f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716554071537
+status: 3
+tags: []
+user_id: meirof

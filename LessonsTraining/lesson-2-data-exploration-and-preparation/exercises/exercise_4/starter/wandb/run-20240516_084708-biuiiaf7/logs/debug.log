@@ -1,0 +1,61 @@
+2024-05-16 08:47:08,068 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-16 08:47:08,069 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Configure stats pid to 18925
+2024-05-16 08:47:08,069 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Loading settings from /home/meirof/.config/wandb/settings
+2024-05-16 08:47:08,069 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/settings
+2024-05-16 08:47:08,069 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-05-16 08:47:08,070 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-16 08:47:08,071 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-05-16 08:47:08,071 INFO    MainThread:18925 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-16 08:47:08,071 INFO    MainThread:18925 [wandb_init.py:_log_setup():520] Logging user logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20240516_084708-biuiiaf7/logs/debug.log
+2024-05-16 08:47:08,072 INFO    MainThread:18925 [wandb_init.py:_log_setup():521] Logging internal logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/wandb/run-20240516_084708-biuiiaf7/logs/debug-internal.log
+2024-05-16 08:47:08,072 INFO    MainThread:18925 [wandb_init.py:_jupyter_setup():466] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f232c0666d0>
+2024-05-16 08:47:08,072 INFO    MainThread:18925 [wandb_init.py:init():560] calling init triggers
+2024-05-16 08:47:08,073 INFO    MainThread:18925 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-16 08:47:08,073 INFO    MainThread:18925 [wandb_init.py:init():610] starting backend
+2024-05-16 08:47:08,073 INFO    MainThread:18925 [wandb_init.py:init():614] setting up manager
+2024-05-16 08:47:08,080 INFO    MainThread:18925 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-16 08:47:08,081 INFO    MainThread:18925 [wandb_init.py:init():622] backend started and connected
+2024-05-16 08:47:08,095 INFO    MainThread:18925 [wandb_run.py:_label_probe_notebook():1328] probe notebook
+2024-05-16 08:47:08,097 INFO    MainThread:18925 [wandb_init.py:init():711] updated telemetry
+2024-05-16 08:47:08,205 INFO    MainThread:18925 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-16 08:47:08,673 INFO    MainThread:18925 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-16 08:47:08,948 INFO    MainThread:18925 [wandb_run.py:_on_init():2405] got version response 
+2024-05-16 08:47:08,949 INFO    MainThread:18925 [wandb_init.py:init():795] starting run threads in backend
+2024-05-16 08:47:13,069 INFO    MainThread:18925 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-16 08:47:13,069 INFO    MainThread:18925 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-16 08:47:13,070 INFO    MainThread:18925 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-16 08:47:13,070 INFO    MainThread:18925 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-16 08:47:13,073 INFO    MainThread:18925 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-16 08:47:13,073 INFO    MainThread:18925 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2024-05-16 08:47:13,374 INFO    MainThread:18925 [wandb_init.py:_pause_backend():429] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2024-05-16 08:47:13,375 INFO    MainThread:18925 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:47:13,384 INFO    MainThread:18925 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:47:14,836 INFO    MainThread:18925 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2024-05-16 08:47:15,092 INFO    MainThread:18925 [wandb_init.py:_pause_backend():429] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2024-05-16 08:47:15,095 INFO    MainThread:18925 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:47:15,103 INFO    MainThread:18925 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:48:00,100 INFO    MainThread:18925 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2024-05-16 08:48:00,687 INFO    MainThread:18925 [wandb_init.py:_pause_backend():429] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2024-05-16 08:48:00,688 INFO    MainThread:18925 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:48:00,698 INFO    MainThread:18925 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:48:00,761 INFO    MainThread:18925 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2024-05-16 08:48:01,164 INFO    MainThread:18925 [wandb_init.py:_pause_backend():429] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2024-05-16 08:48:01,164 INFO    MainThread:18925 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:48:01,173 INFO    MainThread:18925 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:48:01,202 INFO    MainThread:18925 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2024-05-16 08:48:01,503 INFO    MainThread:18925 [wandb_init.py:_pause_backend():429] saved code: <Artifact source-exercise_4-EDA.ipynb>
+2024-05-16 08:48:01,504 INFO    MainThread:18925 [wandb_init.py:_pause_backend():431] pausing backend
+2024-05-16 08:48:01,512 INFO    MainThread:18925 [wandb_init.py:_resume_backend():436] resuming backend
+2024-05-16 08:48:01,515 INFO    MainThread:18925 [wandb_run.py:_finish():2103] finishing run ofekm88/exercise_4/biuiiaf7
+2024-05-16 08:48:01,600 INFO    MainThread:18925 [jupyter.py:save_history():474] saving 8 cells to _session_history.ipynb
+2024-05-16 08:48:01,601 INFO    MainThread:18925 [wandb_run.py:_config_callback():1376] config_cb ('_wandb', 'session_history') code/_session_history.ipynb None
+2024-05-16 08:48:01,634 INFO    MainThread:18925 [jupyter.py:_save_ipynb():384] looking for notebook: EDA.ipynb
+2024-05-16 08:48:02,083 INFO    MainThread:18925 [wandb_init.py:_jupyter_teardown():447] saved code and history: <Artifact source-exercise_4-EDA.ipynb>
+2024-05-16 08:48:02,084 INFO    MainThread:18925 [wandb_init.py:_jupyter_teardown():448] cleaning up jupyter logic
+2024-05-16 08:48:02,084 INFO    MainThread:18925 [wandb_run.py:_atexit_cleanup():2343] got exitcode: 0
+2024-05-16 08:48:02,086 INFO    MainThread:18925 [wandb_run.py:_restore():2326] restore
+2024-05-16 08:48:02,086 INFO    MainThread:18925 [wandb_run.py:_restore():2332] restore done
+2024-05-16 08:48:08,070 INFO    MainThread:18925 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-16 08:48:08,071 INFO    MainThread:18925 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-16 08:48:08,094 INFO    MainThread:18925 [wandb_run.py:_footer_sync_info():3953] logging synced files

@@ -1,0 +1,19 @@
+[1m========================================================================== test session starts ==========================================================================
+platform linux -- Python 3.9.19, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter
+[1mcollected 1 item                                                                                                                                                        
+test_data.py::test_kolmogorov_smirnov [31mERROR
+================================================================================ ERRORS =================================================================================
+[31m[1m_______________________________________________________________ ERROR at setup of test_kolmogorov_smirnov _______________________________________________________________
+request = <SubRequest 'ks_alpha' for <Function test_kolmogorov_smirnov>>
+    @pytest.fixture(scope='session')
+    def ks_alpha(request):
+        # COMPLETE HERE: read the option ks_alpha from the command line,
+        # and return it as a float
+>       return request.option.ks_alpha
+[31m[1mE       AttributeError: 'SubRequest' object has no attribute 'option'
+[31m[1mconftest.py[39m[22m:43: AttributeError
+======================================================================== short test summary info ========================================================================
+ERROR test_data.py::test_kolmogorov_smirnov - AttributeError: 'SubRequest' object has no attribute 'option'
+[31m=========================================================================== [1m1 error[22m in 1.01s ============================================================================

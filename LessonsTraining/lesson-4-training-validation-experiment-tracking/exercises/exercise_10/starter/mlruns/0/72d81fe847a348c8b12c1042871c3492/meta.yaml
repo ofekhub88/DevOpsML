@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/72d81fe847a348c8b12c1042871c3492/artifacts
+end_time: 1716623154790
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 72d81fe847a348c8b12c1042871c3492
+run_name: bouncy-lamb-387
+run_uuid: 72d81fe847a348c8b12c1042871c3492
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716623153095
+status: 4
+tags: []
+user_id: meirof

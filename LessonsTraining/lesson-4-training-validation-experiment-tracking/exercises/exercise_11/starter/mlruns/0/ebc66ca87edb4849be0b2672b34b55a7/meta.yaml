@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ebc66ca87edb4849be0b2672b34b55a7/artifacts
+end_time: 1716663128783
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ebc66ca87edb4849be0b2672b34b55a7
+run_name: omniscient-whale-937
+run_uuid: ebc66ca87edb4849be0b2672b34b55a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662298237
+status: 4
+tags: []
+user_id: meirof

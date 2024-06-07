@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/3d85d4f8303440a1bb4f8e0fb6df2153/artifacts
+end_time: 1716623842389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d85d4f8303440a1bb4f8e0fb6df2153
+run_name: traveling-eel-492
+run_uuid: 3d85d4f8303440a1bb4f8e0fb6df2153
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716623830384
+status: 4
+tags: []
+user_id: meirof

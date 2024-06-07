@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/928b13e8516d4ddcbee84d898d281323/artifacts
+end_time: 1716554232373
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 928b13e8516d4ddcbee84d898d281323
+run_name: popular-bird-806
+run_uuid: 928b13e8516d4ddcbee84d898d281323
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716554216311
+status: 3
+tags: []
+user_id: meirof

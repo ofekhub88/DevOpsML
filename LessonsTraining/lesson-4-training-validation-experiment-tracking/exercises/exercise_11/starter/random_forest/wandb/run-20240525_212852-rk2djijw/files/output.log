@@ -1,0 +1,12 @@
+2024-05-25 21:28:54,636 Downloading and reading train artifact
+2024-05-25 21:28:56,145 Extracting target from dataframe
+2024-05-25 21:28:56,147 Splitting train/val
+2024-05-25 21:28:56,164 Setting up pipeline
+2024-05-25 21:28:56,173 Fitting
+2024-05-25 21:28:58,081 Scoring
+Traceback (most recent call last):
+  File "run.py", line 177, in <module>
+    go(args)
+  File "run.py", line 54, in go
+    accuracy = accuracy_score(y_val, y_pred)
+NameError: name 'y_pred' is not defined

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/ce462fd099df4033be4e60cd8f9e70fe/artifacts
+end_time: 1715853887074
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce462fd099df4033be4e60cd8f9e70fe
+run_name: honorable-turtle-423
+run_uuid: ce462fd099df4033be4e60cd8f9e70fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715853872269
+status: 3
+tags: []
+user_id: meirof

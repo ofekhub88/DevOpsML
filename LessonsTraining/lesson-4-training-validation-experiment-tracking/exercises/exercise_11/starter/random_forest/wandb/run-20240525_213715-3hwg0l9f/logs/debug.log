@@ -1,0 +1,29 @@
+2024-05-25 21:37:15,402 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-05-25 21:37:15,403 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Configure stats pid to 6345
+2024-05-25 21:37:15,403 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Loading settings from /home/meirof/.config/wandb/settings
+2024-05-25 21:37:15,403 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Loading settings from /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/settings
+2024-05-25 21:37:15,403 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'run_group': 'dev', 'project': 'exercise_11'}
+2024-05-25 21:37:15,415 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-05-25 21:37:15,415 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'program_abspath': '/mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py', 'program': 'run.py'}
+2024-05-25 21:37:15,415 INFO    MainThread:6345 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-05-25 21:37:15,416 INFO    MainThread:6345 [wandb_init.py:_log_setup():520] Logging user logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_213715-3hwg0l9f/logs/debug.log
+2024-05-25 21:37:15,416 INFO    MainThread:6345 [wandb_init.py:_log_setup():521] Logging internal logs to /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20240525_213715-3hwg0l9f/logs/debug-internal.log
+2024-05-25 21:37:15,416 INFO    MainThread:6345 [wandb_init.py:init():560] calling init triggers
+2024-05-25 21:37:15,416 INFO    MainThread:6345 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {}
+2024-05-25 21:37:15,417 INFO    MainThread:6345 [wandb_init.py:init():610] starting backend
+2024-05-25 21:37:15,417 INFO    MainThread:6345 [wandb_init.py:init():614] setting up manager
+2024-05-25 21:37:15,420 INFO    MainThread:6345 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-05-25 21:37:15,421 INFO    MainThread:6345 [wandb_init.py:init():622] backend started and connected
+2024-05-25 21:37:15,427 INFO    MainThread:6345 [wandb_init.py:init():711] updated telemetry
+2024-05-25 21:37:15,481 INFO    MainThread:6345 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-05-25 21:37:15,962 INFO    MainThread:6345 [wandb_run.py:_on_init():2396] communicating current version
+2024-05-25 21:37:16,244 INFO    MainThread:6345 [wandb_run.py:_on_init():2405] got version response 
+2024-05-25 21:37:16,244 INFO    MainThread:6345 [wandb_init.py:init():795] starting run threads in backend
+2024-05-25 21:37:17,068 INFO    MainThread:6345 [wandb_run.py:_console_start():2374] atexit reg
+2024-05-25 21:37:17,068 INFO    MainThread:6345 [wandb_run.py:_redirect():2229] redirect: wrap_raw
+2024-05-25 21:37:17,069 INFO    MainThread:6345 [wandb_run.py:_redirect():2294] Wrapping output streams.
+2024-05-25 21:37:17,069 INFO    MainThread:6345 [wandb_run.py:_redirect():2319] Redirects installed.
+2024-05-25 21:37:17,071 INFO    MainThread:6345 [wandb_init.py:init():838] run started, returning control to user process
+2024-05-25 21:37:18,576 INFO    MainThread:6345 [wandb_run.py:_config_callback():1376] config_cb None None {'random_forest': {'n_estimators': 100, 'criterion': 'gini', 'max_depth': 22, 'min_samples_split': 2, 'min_samples_leaf': 1, 'min_weight_fraction_leaf': 0.0, 'max_features': 'auto', 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_impurity_split': None, 'bootstrap': True, 'oob_score': False, 'n_jobs': None, 'random_state': None, 'verbose': 0, 'warm_start': False, 'class_weight': 'balanced', 'ccp_alpha': 0.0, 'max_samples': None}, 'tfidf': {'max_features': 50}, 'features': {'numerical': ['danceability', 'energy', 'loudness', 'speechiness', 'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo', 'duration_ms'], 'categorical': ['time_signature', 'key'], 'nlp': ['text_feature']}}
+2024-05-25 21:37:35,209 WARNING MsgRouterThr:6345 [router.py:message_loop():77] message_loop has been closed

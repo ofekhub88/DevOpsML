@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/0b39bb67990a4ed783b718540e426a36/artifacts
+end_time: 1715853102953
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0b39bb67990a4ed783b718540e426a36
+run_name: nosy-pig-18
+run_uuid: 0b39bb67990a4ed783b718540e426a36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715853090374
+status: 3
+tags: []
+user_id: meirof

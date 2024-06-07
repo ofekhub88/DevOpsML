@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/6bddcb9daa4e403b8b0083da10957be3/artifacts
+end_time: 1716662594949
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bddcb9daa4e403b8b0083da10957be3
+run_name: thoughtful-gull-633
+run_uuid: 6bddcb9daa4e403b8b0083da10957be3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662572891
+status: 3
+tags: []
+user_id: meirof

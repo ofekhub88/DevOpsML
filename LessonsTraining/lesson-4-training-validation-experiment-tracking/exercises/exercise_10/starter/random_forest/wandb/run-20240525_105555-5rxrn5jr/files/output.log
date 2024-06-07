@@ -1,0 +1,12 @@
+2024-05-25 10:55:57,468 Downloading and reading train artifact
+2024-05-25 10:55:59,038 Extracting target from dataframe
+2024-05-25 10:55:59,041 Splitting train/val
+2024-05-25 10:55:59,059 Setting up pipeline
+Traceback (most recent call last):
+  File "run.py", line 197, in <module>
+    go(args)
+  File "run.py", line 43, in go
+    pipe = get_inference_pipeline(args)
+  File "run.py", line 144, in get_inference_pipeline
+    reshape_to_1d(),
+TypeError: 'FunctionTransformer' object is not callable

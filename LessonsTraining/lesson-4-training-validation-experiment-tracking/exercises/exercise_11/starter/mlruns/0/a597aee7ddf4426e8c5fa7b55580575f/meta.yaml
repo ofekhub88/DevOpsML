@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/a597aee7ddf4426e8c5fa7b55580575f/artifacts
+end_time: 1716660748186
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a597aee7ddf4426e8c5fa7b55580575f
+run_name: wise-shoat-774
+run_uuid: a597aee7ddf4426e8c5fa7b55580575f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716660732629
+status: 3
+tags: []
+user_id: meirof

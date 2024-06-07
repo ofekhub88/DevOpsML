@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/70fdc1d0fa5d4739afa7f1d1160627a5/artifacts
+end_time: 1716401037888
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 70fdc1d0fa5d4739afa7f1d1160627a5
+run_name: resilient-lynx-887
+run_uuid: 70fdc1d0fa5d4739afa7f1d1160627a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716401036094
+status: 4
+tags: []
+user_id: meirof

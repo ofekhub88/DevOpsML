@@ -1,0 +1,13 @@
+Exception in thread FileStreamThread:
+Traceback (most recent call last):
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/threading.py", line 917, in run
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 502, in _thread_except_body
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 496, in _thread_except_body
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 467, in _thread_body
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/wandb/sdk/internal/file_stream.py", line 636, in request_with_retry
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/requests/sessions.py", line 635, in post
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/requests/sessions.py", line 587, in request
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/requests/sessions.py", line 701, in send
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/requests/adapters.py", line 460, in send
+  File "/home/meirof/miniconda3.10/envs/mlflow-836a675311f0e30f203f1765f36c1b551a87c462/lib/python3.9/site-packages/requests/adapters.py", line 263, in cert_verify

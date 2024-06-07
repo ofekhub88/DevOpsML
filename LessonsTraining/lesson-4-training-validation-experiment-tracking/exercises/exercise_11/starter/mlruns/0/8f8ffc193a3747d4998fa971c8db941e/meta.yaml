@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/8f8ffc193a3747d4998fa971c8db941e/artifacts
+end_time: 1716660112826
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8f8ffc193a3747d4998fa971c8db941e
+run_name: upset-crane-103
+run_uuid: 8f8ffc193a3747d4998fa971c8db941e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716660096461
+status: 3
+tags: []
+user_id: meirof

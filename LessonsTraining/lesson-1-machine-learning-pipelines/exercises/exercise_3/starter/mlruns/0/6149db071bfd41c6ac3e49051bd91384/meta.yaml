@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/6149db071bfd41c6ac3e49051bd91384/artifacts
+end_time: 1715815104120
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6149db071bfd41c6ac3e49051bd91384
+run_name: powerful-goat-198
+run_uuid: 6149db071bfd41c6ac3e49051bd91384
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715815064470
+status: 3
+tags: []
+user_id: meirof

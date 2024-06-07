@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/4b2fbf58b7bb406587b018ab0608ae00/artifacts
+end_time: 1715852840785
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b2fbf58b7bb406587b018ab0608ae00
+run_name: welcoming-duck-576
+run_uuid: 4b2fbf58b7bb406587b018ab0608ae00
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715852785575
+status: 4
+tags: []
+user_id: meirof

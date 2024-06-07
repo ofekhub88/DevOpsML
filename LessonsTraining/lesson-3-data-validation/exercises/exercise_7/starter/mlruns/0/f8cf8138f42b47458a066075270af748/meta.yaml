@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_7/starter/mlruns/0/f8cf8138f42b47458a066075270af748/artifacts
+end_time: 1716539843092
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8cf8138f42b47458a066075270af748
+run_name: respected-vole-774
+run_uuid: f8cf8138f42b47458a066075270af748
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716539831392
+status: 3
+tags: []
+user_id: meirof

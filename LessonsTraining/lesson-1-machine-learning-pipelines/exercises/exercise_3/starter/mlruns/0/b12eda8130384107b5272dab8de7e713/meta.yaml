@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/b12eda8130384107b5272dab8de7e713/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b12eda8130384107b5272dab8de7e713
+run_name: incongruous-eel-15
+run_uuid: b12eda8130384107b5272dab8de7e713
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715763512261
+status: 1
+tags: []
+user_id: meirof

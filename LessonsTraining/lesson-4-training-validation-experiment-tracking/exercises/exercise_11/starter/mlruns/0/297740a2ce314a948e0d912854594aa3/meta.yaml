@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/297740a2ce314a948e0d912854594aa3/artifacts
+end_time: 1716662847881
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 297740a2ce314a948e0d912854594aa3
+run_name: youthful-shrimp-989
+run_uuid: 297740a2ce314a948e0d912854594aa3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662824158
+status: 3
+tags: []
+user_id: meirof

@@ -1,0 +1,184 @@
+2024-05-31 13:06:57,704 INFO    StreamThr :46064 [internal.py:wandb_internal():85] W&B internal server running at pid: 46064, started at: 2024-05-31 13:06:57.703247
+2024-05-31 13:06:57,707 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: status
+2024-05-31 13:06:57,711 INFO    WriterThread:46064 [datastore.py:open_for_write():87] open: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/run-6ghpj0k2.wandb
+2024-05-31 13:06:57,713 DEBUG   SenderThread:46064 [sender.py:send():378] send: header
+2024-05-31 13:06:57,774 DEBUG   SenderThread:46064 [sender.py:send():378] send: run
+2024-05-31 13:06:58,186 INFO    SenderThread:46064 [dir_watcher.py:__init__():211] watching files in: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files
+2024-05-31 13:06:58,187 INFO    SenderThread:46064 [sender.py:_start_run_threads():1123] run started: 6ghpj0k2 with start time 1717150017.703429
+2024-05-31 13:06:58,197 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: check_version
+2024-05-31 13:06:58,197 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: check_version
+2024-05-31 13:06:58,475 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: run_start
+2024-05-31 13:06:58,483 ERROR   HandlerThread:46064 [gpu.py:is_available():381] Error initializing NVML: Driver Not Loaded
+2024-05-31 13:06:58,485 DEBUG   HandlerThread:46064 [system_info.py:__init__():26] System info init
+2024-05-31 13:06:58,485 DEBUG   HandlerThread:46064 [system_info.py:__init__():41] System info init done
+2024-05-31 13:06:58,486 INFO    HandlerThread:46064 [system_monitor.py:start():194] Starting system monitor
+2024-05-31 13:06:58,486 INFO    SystemMonitor:46064 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-05-31 13:06:58,487 INFO    HandlerThread:46064 [system_monitor.py:probe():214] Collecting system info
+2024-05-31 13:06:58,489 INFO    SystemMonitor:46064 [interfaces.py:start():188] Started cpu monitoring
+2024-05-31 13:06:58,491 INFO    SystemMonitor:46064 [interfaces.py:start():188] Started disk monitoring
+2024-05-31 13:06:58,492 INFO    SystemMonitor:46064 [interfaces.py:start():188] Started memory monitoring
+2024-05-31 13:06:58,493 INFO    SystemMonitor:46064 [interfaces.py:start():188] Started network monitoring
+2024-05-31 13:06:58,495 DEBUG   HandlerThread:46064 [system_info.py:probe():150] Probing system
+2024-05-31 13:06:58,518 DEBUG   HandlerThread:46064 [system_info.py:_probe_git():135] Probing git
+2024-05-31 13:06:58,581 DEBUG   HandlerThread:46064 [system_info.py:_probe_git():143] Probing git done
+2024-05-31 13:06:58,582 DEBUG   HandlerThread:46064 [system_info.py:probe():198] Probing system done
+2024-05-31 13:06:58,582 DEBUG   HandlerThread:46064 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.10', 'python': '3.8.19', 'heartbeatAt': '2024-05-31T10:06:58.495954', 'startedAt': '2024-05-31T10:06:57.653064', 'docker': None, 'cuda': None, 'args': ('--model_export', 'exercise_12/model_export:latest', '--test_data', 'exercise_6/data_test.csv:latest'), 'state': 'running', 'program': 'run.py', 'codePathLocal': 'run.py', 'codePath': 'LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py', 'git': {'remote': 'https://github.com/ofekhub88/DevOpsML.git', 'commit': '3d8648ac35c21e22e78e51140b07f75158ebd40f'}, 'email': 'meirof@amdocs.com', 'root': '/mnt/c/wsl/mount/Udacity/DevOpsML', 'host': 'meirof02', 'username': 'meirof', 'executable': '/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/bin/python', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2611.211, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}, {'current': 2611.211, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 250.92389297485352, 'used': 40.13145065307617}}, 'memory': {'total': 15.478584289550781}}
+2024-05-31 13:06:58,582 INFO    HandlerThread:46064 [system_monitor.py:probe():224] Finished collecting system info
+2024-05-31 13:06:58,582 INFO    HandlerThread:46064 [system_monitor.py:probe():227] Publishing system info
+2024-05-31 13:06:58,583 DEBUG   HandlerThread:46064 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-05-31 13:06:59,192 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/conda-environment.yaml
+2024-05-31 13:06:59,806 DEBUG   HandlerThread:46064 [system_info.py:_save_conda():222] Saving conda packages done
+2024-05-31 13:06:59,811 INFO    HandlerThread:46064 [system_monitor.py:probe():229] Finished publishing system info
+2024-05-31 13:06:59,814 DEBUG   SenderThread:46064 [sender.py:send():378] send: files
+2024-05-31 13:06:59,815 INFO    SenderThread:46064 [sender.py:_save_file():1389] saving file wandb-metadata.json with policy now
+2024-05-31 13:06:59,864 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: python_packages
+2024-05-31 13:06:59,864 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: stop_status
+2024-05-31 13:06:59,865 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: python_packages
+2024-05-31 13:06:59,870 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: stop_status
+2024-05-31 13:07:00,155 DEBUG   SenderThread:46064 [sender.py:send():378] send: telemetry
+2024-05-31 13:07:00,195 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/conda-environment.yaml
+2024-05-31 13:07:00,195 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/output.log
+2024-05-31 13:07:00,196 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/wandb-metadata.json
+2024-05-31 13:07:00,196 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/requirements.txt
+2024-05-31 13:07:00,505 INFO    wandb-upload_0:46064 [upload_job.py:push():130] Uploaded file /tmp/tmpnp6_r5guwandb/yakdwltw-wandb-metadata.json
+2024-05-31 13:07:00,694 DEBUG   SenderThread:46064 [sender.py:send():378] send: use_artifact
+2024-05-31 13:07:01,540 DEBUG   SenderThread:46064 [sender.py:send():378] send: exit
+2024-05-31 13:07:01,540 INFO    SenderThread:46064 [sender.py:send_exit():585] handling exit code: 1
+2024-05-31 13:07:01,541 INFO    SenderThread:46064 [sender.py:send_exit():587] handling runtime: 3
+2024-05-31 13:07:01,543 INFO    SenderThread:46064 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-31 13:07:01,544 INFO    SenderThread:46064 [sender.py:send_exit():593] send defer
+2024-05-31 13:07:01,545 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,545 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 0
+2024-05-31 13:07:01,545 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,545 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-05-31 13:07:01,546 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 1
+2024-05-31 13:07:01,546 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,546 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 1
+2024-05-31 13:07:01,546 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,547 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-05-31 13:07:01,547 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 2
+2024-05-31 13:07:01,547 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,547 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 2
+2024-05-31 13:07:01,547 INFO    HandlerThread:46064 [system_monitor.py:finish():203] Stopping system monitor
+2024-05-31 13:07:01,547 DEBUG   SystemMonitor:46064 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-05-31 13:07:01,548 INFO    HandlerThread:46064 [interfaces.py:finish():200] Joined cpu monitor
+2024-05-31 13:07:01,548 DEBUG   SystemMonitor:46064 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-05-31 13:07:01,548 INFO    HandlerThread:46064 [interfaces.py:finish():200] Joined disk monitor
+2024-05-31 13:07:01,548 DEBUG   SystemMonitor:46064 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-05-31 13:07:01,549 INFO    HandlerThread:46064 [interfaces.py:finish():200] Joined memory monitor
+2024-05-31 13:07:01,549 INFO    HandlerThread:46064 [interfaces.py:finish():200] Joined network monitor
+2024-05-31 13:07:01,550 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,550 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-05-31 13:07:01,550 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 3
+2024-05-31 13:07:01,551 DEBUG   SenderThread:46064 [sender.py:send():378] send: stats
+2024-05-31 13:07:01,551 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,551 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 3
+2024-05-31 13:07:01,552 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,552 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-05-31 13:07:01,552 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 4
+2024-05-31 13:07:01,552 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,552 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 4
+2024-05-31 13:07:01,552 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,553 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-05-31 13:07:01,553 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 5
+2024-05-31 13:07:01,553 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,553 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 5
+2024-05-31 13:07:01,553 DEBUG   SenderThread:46064 [sender.py:send():378] send: summary
+2024-05-31 13:07:01,555 INFO    SenderThread:46064 [sender.py:_save_file():1389] saving file wandb-summary.json with policy end
+2024-05-31 13:07:01,556 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,556 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-05-31 13:07:01,557 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 6
+2024-05-31 13:07:01,557 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,557 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 6
+2024-05-31 13:07:01,558 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,558 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-05-31 13:07:01,560 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: status_report
+2024-05-31 13:07:01,772 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 7
+2024-05-31 13:07:01,774 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:01,776 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 7
+2024-05-31 13:07:01,782 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:01,783 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-05-31 13:07:02,172 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 8
+2024-05-31 13:07:02,173 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:02,173 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 8
+2024-05-31 13:07:02,173 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:02,173 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-05-31 13:07:02,174 INFO    SenderThread:46064 [job_builder.py:build():432] Attempting to build job artifact
+2024-05-31 13:07:02,179 INFO    SenderThread:46064 [job_builder.py:_get_source_type():565] is repo sourced job
+2024-05-31 13:07:02,206 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/output.log
+2024-05-31 13:07:02,207 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/config.yaml
+2024-05-31 13:07:02,208 INFO    SenderThread:46064 [job_builder.py:build():541] adding wandb-job metadata file
+2024-05-31 13:07:02,209 INFO    Thread-12 :46064 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/wandb-summary.json
+2024-05-31 13:07:02,223 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 9
+2024-05-31 13:07:02,224 DEBUG   SenderThread:46064 [sender.py:send():378] send: artifact
+2024-05-31 13:07:02,224 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:02,226 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 9
+2024-05-31 13:07:02,540 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-31 13:07:03,102 INFO    SenderThread:46064 [sender.py:send_artifact():1467] sent artifact job-https___github.com_ofekhub88_DevOpsML.git_LessonsTraining_l..dation-experiment-tracking_exercises_exercise_13_starter_run.py - {'id': 'QXJ0aWZhY3Q6ODU1NzQ0Nzg0', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE4MDk5ODU1NA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6ODU1NzQ0Nzg0', 'versionIndex': 0}}}
+2024-05-31 13:07:03,102 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:03,103 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-05-31 13:07:03,103 INFO    SenderThread:46064 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-05-31 13:07:03,219 INFO    SenderThread:46064 [dir_watcher.py:finish():388] scan: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files
+2024-05-31 13:07:03,222 INFO    SenderThread:46064 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/conda-environment.yaml conda-environment.yaml
+2024-05-31 13:07:03,224 INFO    SenderThread:46064 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/config.yaml config.yaml
+2024-05-31 13:07:03,229 INFO    SenderThread:46064 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/output.log output.log
+2024-05-31 13:07:03,233 INFO    SenderThread:46064 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/requirements.txt requirements.txt
+2024-05-31 13:07:03,237 INFO    SenderThread:46064 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/wandb-metadata.json wandb-metadata.json
+2024-05-31 13:07:03,238 INFO    SenderThread:46064 [dir_watcher.py:finish():402] scan save: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/wandb-summary.json wandb-summary.json
+2024-05-31 13:07:03,242 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 10
+2024-05-31 13:07:03,242 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: poll_exit
+2024-05-31 13:07:03,242 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:03,244 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 10
+2024-05-31 13:07:03,245 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:03,245 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-05-31 13:07:03,246 INFO    SenderThread:46064 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-31 13:07:03,541 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-31 13:07:03,542 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: poll_exit
+2024-05-31 13:07:03,676 INFO    wandb-upload_0:46064 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/conda-environment.yaml
+2024-05-31 13:07:03,750 INFO    wandb-upload_2:46064 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/output.log
+2024-05-31 13:07:03,753 INFO    wandb-upload_3:46064 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/requirements.txt
+2024-05-31 13:07:03,768 INFO    wandb-upload_1:46064 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/config.yaml
+2024-05-31 13:07:03,801 INFO    wandb-upload_4:46064 [upload_job.py:push():130] Uploaded file /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/files/wandb-summary.json
+2024-05-31 13:07:04,002 INFO    Thread-11 :46064 [sender.py:transition_state():613] send defer: 11
+2024-05-31 13:07:04,003 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:04,005 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 11
+2024-05-31 13:07:04,006 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:04,007 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-05-31 13:07:04,008 INFO    SenderThread:46064 [file_pusher.py:join():175] waiting for file pusher
+2024-05-31 13:07:04,009 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 12
+2024-05-31 13:07:04,010 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:04,011 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 12
+2024-05-31 13:07:04,012 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:04,012 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-05-31 13:07:04,013 INFO    SenderThread:46064 [file_stream.py:finish():601] file stream finish called
+2024-05-31 13:07:04,245 INFO    SenderThread:46064 [file_stream.py:finish():605] file stream finish is done
+2024-05-31 13:07:04,245 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 13
+2024-05-31 13:07:04,246 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:04,246 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 13
+2024-05-31 13:07:04,246 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:04,247 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-05-31 13:07:04,247 INFO    SenderThread:46064 [sender.py:transition_state():613] send defer: 14
+2024-05-31 13:07:04,247 DEBUG   SenderThread:46064 [sender.py:send():378] send: final
+2024-05-31 13:07:04,247 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: defer
+2024-05-31 13:07:04,248 DEBUG   SenderThread:46064 [sender.py:send():378] send: footer
+2024-05-31 13:07:04,248 INFO    HandlerThread:46064 [handler.py:handle_request_defer():184] handle defer: 14
+2024-05-31 13:07:04,248 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: defer
+2024-05-31 13:07:04,249 INFO    SenderThread:46064 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-05-31 13:07:04,249 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-31 13:07:04,250 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: poll_exit
+2024-05-31 13:07:04,250 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: poll_exit
+2024-05-31 13:07:04,250 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: server_info
+2024-05-31 13:07:04,251 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: poll_exit
+2024-05-31 13:07:04,251 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: get_summary
+2024-05-31 13:07:04,252 DEBUG   SenderThread:46064 [sender.py:send_request():405] send_request: server_info
+2024-05-31 13:07:04,252 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: sampled_history
+2024-05-31 13:07:04,254 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: internal_messages
+2024-05-31 13:07:04,420 INFO    MainThread:46064 [wandb_run.py:_footer_history_summary_info():3994] rendering history
+2024-05-31 13:07:04,420 INFO    MainThread:46064 [wandb_run.py:_footer_history_summary_info():4026] rendering summary
+2024-05-31 13:07:04,420 INFO    MainThread:46064 [wandb_run.py:_footer_sync_info():3953] logging synced files
+2024-05-31 13:07:04,421 DEBUG   HandlerThread:46064 [handler.py:handle_request():158] handle_request: shutdown
+2024-05-31 13:07:04,421 INFO    HandlerThread:46064 [handler.py:finish():882] shutting down handler
+2024-05-31 13:07:05,252 INFO    WriterThread:46064 [datastore.py:close():296] close: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/wandb/run-20240531_130657-6ghpj0k2/run-6ghpj0k2.wandb
+2024-05-31 13:07:05,420 INFO    SenderThread:46064 [sender.py:finish():1545] shutting down sender
+2024-05-31 13:07:05,420 INFO    SenderThread:46064 [file_pusher.py:finish():169] shutting down file pusher
+2024-05-31 13:07:05,421 INFO    SenderThread:46064 [file_pusher.py:join():175] waiting for file pusher

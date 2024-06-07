@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/solution/mlruns/0/4ca2a24c02274ceeaf5c776d7a411211/artifacts
+end_time: 1717150702185
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4ca2a24c02274ceeaf5c776d7a411211
+run_name: fearless-gnu-443
+run_uuid: 4ca2a24c02274ceeaf5c776d7a411211
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717150680866
+status: 3
+tags: []
+user_id: meirof

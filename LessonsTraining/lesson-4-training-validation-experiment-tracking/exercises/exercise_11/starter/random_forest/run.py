@@ -2,7 +2,7 @@
 import argparse
 import logging
 import yaml
-
+from sklearn.metrics import accuracy_score
 import pandas as pd
 import numpy as np
 from sklearn.compose import ColumnTransformer
@@ -51,9 +51,18 @@ def go(args):
     score = roc_auc_score(
         y_val, pipe.predict_proba(X_val), average="macro", multi_class="ovo"
     )
-
+    y_pred = pipe.predict(X_val) 
+    accuracy = accuracy_score(y_val, y_pred)
     run.summary["AUC"] = score
-
+    run.summary['accuracy'] = accuracy
+    for i in range(10):
+      run.log(
+        {
+          # Make up something that varies with the iteration
+          "loss": 1.2 - i*0.1,
+          "accuracy": accuracy
+        }
+      )
     # We collect the feature importance for all non-nlp features first
     feat_names = np.array(
         pipe["preprocessor"].transformers[0][-1]
@@ -87,6 +96,7 @@ def go(args):
         xticks_rotation=90,
     )
     fig_cm.tight_layout()
+
 
     run.log(
         {

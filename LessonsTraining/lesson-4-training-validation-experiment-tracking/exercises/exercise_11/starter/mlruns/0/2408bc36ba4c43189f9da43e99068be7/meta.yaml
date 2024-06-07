@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/2408bc36ba4c43189f9da43e99068be7/artifacts
+end_time: 1716660803432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2408bc36ba4c43189f9da43e99068be7
+run_name: rare-boar-755
+run_uuid: 2408bc36ba4c43189f9da43e99068be7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716660711492
+status: 3
+tags: []
+user_id: meirof

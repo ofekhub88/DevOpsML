@@ -1,0 +1,12 @@
+2024-05-25 21:30:43,855 Downloading and reading train artifact
+2024-05-25 21:30:45,335 Extracting target from dataframe
+2024-05-25 21:30:45,338 Splitting train/val
+2024-05-25 21:30:45,355 Setting up pipeline
+2024-05-25 21:30:45,363 Fitting
+2024-05-25 21:30:47,352 Scoring
+Traceback (most recent call last):
+  File "run.py", line 178, in <module>
+    go(args)
+  File "run.py", line 57, in go
+    run.summery["accuracy"] = accuracy
+AttributeError: 'Run' object has no attribute 'summery'

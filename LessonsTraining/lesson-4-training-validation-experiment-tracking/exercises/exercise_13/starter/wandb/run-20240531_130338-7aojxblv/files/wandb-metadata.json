@@ -1,0 +1,85 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.10",
+    "python": "3.8.19",
+    "heartbeatAt": "2024-05-31T10:03:39.643397",
+    "startedAt": "2024-05-31T10:03:38.709440",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "exercise_12/model_export:latest",
+        "--test_data",
+        "exercise_6/data_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePathLocal": "run.py",
+    "codePath": "LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/run.py",
+    "git": {
+        "remote": "https://github.com/ofekhub88/DevOpsML.git",
+        "commit": "3d8648ac35c21e22e78e51140b07f75158ebd40f"
+    },
+    "email": "meirof@amdocs.com",
+    "root": "/mnt/c/wsl/mount/Udacity/DevOpsML",
+    "host": "meirof02",
+    "username": "meirof",
+    "executable": "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/bin/python",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2611.211,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 250.92389297485352,
+            "used": 40.13142776489258
+        }
+    },
+    "memory": {
+        "total": 15.478584289550781
+    }
+}

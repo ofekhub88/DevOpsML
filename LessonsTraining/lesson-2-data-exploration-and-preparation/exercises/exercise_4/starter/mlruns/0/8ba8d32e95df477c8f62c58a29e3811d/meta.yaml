@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/8ba8d32e95df477c8f62c58a29e3811d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ba8d32e95df477c8f62c58a29e3811d
+run_name: amusing-jay-314
+run_uuid: 8ba8d32e95df477c8f62c58a29e3811d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715838373784
+status: 1
+tags: []
+user_id: meirof

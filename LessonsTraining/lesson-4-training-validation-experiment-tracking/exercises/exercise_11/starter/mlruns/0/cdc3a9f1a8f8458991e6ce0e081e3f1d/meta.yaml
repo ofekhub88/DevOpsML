@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/cdc3a9f1a8f8458991e6ce0e081e3f1d/artifacts
+end_time: 1716662744521
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cdc3a9f1a8f8458991e6ce0e081e3f1d
+run_name: gregarious-gull-525
+run_uuid: cdc3a9f1a8f8458991e6ce0e081e3f1d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662718429
+status: 3
+tags: []
+user_id: meirof

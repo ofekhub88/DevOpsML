@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/d85df4641a744a93897693774c902ae6/artifacts
+end_time: 1716623375262
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d85df4641a744a93897693774c902ae6
+run_name: luxuriant-mole-299
+run_uuid: d85df4641a744a93897693774c902ae6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716623373615
+status: 4
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/5db6359765a84a6f8e807cc5250f34b0/artifacts
+end_time: 1716666052138
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5db6359765a84a6f8e807cc5250f34b0
+run_name: mysterious-fly-211
+run_uuid: 5db6359765a84a6f8e807cc5250f34b0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716665929159
+status: 3
+tags: []
+user_id: meirof

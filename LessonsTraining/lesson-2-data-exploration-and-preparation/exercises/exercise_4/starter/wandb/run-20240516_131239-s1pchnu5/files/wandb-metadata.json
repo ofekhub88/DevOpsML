@@ -1,0 +1,89 @@
+{
+    "os": "Linux-5.10.102.1-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+    "python": "3.10.14",
+    "heartbeatAt": "2024-05-16T10:12:40.797800",
+    "startedAt": "2024-05-16T10:12:39.634193",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "artifact",
+        "put",
+        "--name",
+        "exercise_5/genres_mod.parquet",
+        "--type",
+        "raw_data",
+        "--description",
+        "A modified version of the songs dataset",
+        "genres_mod.parquet"
+    ],
+    "state": "running",
+    "program": "/home/meirof/miniconda3.10/envs/udacity/bin/wandb",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/ofekhub88/DevOpsML.git",
+        "commit": "a23687aad30e10cc5145625d60ddcff197b5d328"
+    },
+    "email": "meirof@amdocs.com",
+    "root": "/mnt/c/wsl/mount/Udacity/DevOpsML",
+    "host": "meirof02",
+    "username": "meirof",
+    "executable": "/home/meirof/miniconda3.10/envs/udacity/bin/python3.10",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2611.211,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2611.211,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 250.98248672485352,
+            "used": 42.30870819091797
+        }
+    },
+    "memory": {
+        "total": 15.481483459472656
+    }
+}

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/57dc92ab9ea34c888d5bd47043a802aa/artifacts
+end_time: 1717149589736
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 57dc92ab9ea34c888d5bd47043a802aa
+run_name: rare-robin-401
+run_uuid: 57dc92ab9ea34c888d5bd47043a802aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717149551459
+status: 4
+tags: []
+user_id: meirof

@@ -1,0 +1,64 @@
+[1mcollected 3 items                                                                                                                                                       
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [31mFAILED
+=============================================================================== FAILURES ================================================================================
+[31m[1m__________________________________________________________________________ test_column_ranges ___________________________________________________________________________
+data =        danceability  energy  key  ...                                      song_name                        title     ...            NaN       Best of Hardstyle 2020                         Best of Hardstyle 2020
+[41975 rows x 18 columns]
+    def test_column_ranges(data):
+        ranges = {
+            "time_signature": (1, 5),
+            "key": (0, 11),
+            "danceability": (0, 1),
+            "energy": (0, 1),
+            "loudness": (-35, 5),
+            "speechiness": (0, 1),
+            "acousticness": (0, 1),
+            "instrumentalness": (0, 1),
+            "liveness": (0, 1),
+            "valence": (0, 1),
+            "tempo": (50, 250),
+            "duration_ms": (20000, 1000000),
+        }
+        for col_name, (minimum, maximum) in ranges.items():
+            # YOUR CODE HERE: check that the values in the column col_name are within the expected range
+            # HINT: look at the .between method of pandas, and then use .all() like in the previous
+            # test
+>           assert  data[col_name].between(minimum,maximum)
+[31m[1mtest_data.py[39m[22m:98:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+self = 0        True
+1        True
+2        True
+3        True
+4        True
+         ...
+41970    True
+41971    True
+41972    True
+41973    True
+41974    True
+Name: time_signature, Length: 41975, dtype: bool
+    @final
+    def __nonzero__(self):
+>       raise ValueError(
+            f"The truth value of a {type(self).__name__} is ambiguous. "
+            "Use a.empty, a.bool(), a.item(), a.any() or a.all()."
+        )
+[31m[1mE       ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-cbe7e3177b373180c02c2befa2b72a3e103ffb72/lib/python3.9/site-packages/pandas/core/generic.py[39m[22m:1442: ValueError
+[33m=========================================================================== warnings summary ============================================================================
+test_data.py::test_column_ranges
+test_data.py::test_column_ranges
+test_data.py::test_column_ranges
+test_data.py::test_column_ranges
+test_data.py::test_column_ranges
+test_data.py::test_column_ranges
+  /home/meirof/miniconda3.10/envs/mlflow-cbe7e3177b373180c02c2befa2b72a3e103ffb72/lib/python3.9/site-packages/pandas/core/internals/concat.py:408: DeprecationWarning: np.find_common_type is deprecated.  Please use `np.result_type` or `np.promote_types`.
+  See https://numpy.org/devdocs/release/1.25.0-notes.html and the docs for more information.  (Deprecated NumPy 1.25)
+    common_dtype = np.find_common_type(upcast_classes, [])
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+======================================================================== short test summary info ========================================================================
+FAILED test_data.py::test_column_ranges - ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+[31m================================================================ [1m1 failed[39m[22m, [32m2 passed[39m, [33m6 warnings[31m in 5.82s ================================================================

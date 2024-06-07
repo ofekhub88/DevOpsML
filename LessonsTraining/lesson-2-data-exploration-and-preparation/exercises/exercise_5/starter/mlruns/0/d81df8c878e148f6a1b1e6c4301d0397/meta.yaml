@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/d81df8c878e148f6a1b1e6c4301d0397/artifacts
+end_time: 1715855078676
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d81df8c878e148f6a1b1e6c4301d0397
+run_name: useful-pig-356
+run_uuid: d81df8c878e148f6a1b1e6c4301d0397
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715855054634
+status: 4
+tags: []
+user_id: meirof

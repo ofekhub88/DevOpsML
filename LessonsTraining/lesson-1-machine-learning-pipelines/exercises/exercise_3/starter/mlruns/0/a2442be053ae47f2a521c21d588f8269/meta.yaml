@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/a2442be053ae47f2a521c21d588f8269/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2442be053ae47f2a521c21d588f8269
+run_name: placid-colt-329
+run_uuid: a2442be053ae47f2a521c21d588f8269
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715763766299
+status: 1
+tags: []
+user_id: meirof

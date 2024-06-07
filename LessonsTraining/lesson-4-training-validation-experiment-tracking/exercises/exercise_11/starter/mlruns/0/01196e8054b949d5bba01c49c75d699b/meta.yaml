@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/01196e8054b949d5bba01c49c75d699b/artifacts
+end_time: 1716663497049
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 01196e8054b949d5bba01c49c75d699b
+run_name: delightful-whale-540
+run_uuid: 01196e8054b949d5bba01c49c75d699b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663466592
+status: 3
+tags: []
+user_id: meirof

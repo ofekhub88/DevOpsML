@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/faa6626b11754243a0930e44e154f691/artifacts
+end_time: 1716662461534
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: faa6626b11754243a0930e44e154f691
+run_name: bright-ram-355
+run_uuid: faa6626b11754243a0930e44e154f691
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662441677
+status: 3
+tags: []
+user_id: meirof

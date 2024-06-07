@@ -1,0 +1,16 @@
+2024-05-31 13:07:38,421 Downloading and reading test artifact
+2024-05-31 13:07:39,778 Extracting target from dataframe
+2024-05-31 13:07:39,784 Downloading and reading the exported model
+[34m[1mwandb[39m[22m:   6 of 6 files downloaded.
+Traceback (most recent call last):
+  File "run.py", line 87, in <module>
+    go(args)
+  File "run.py", line 35, in go
+    pipe = mlflow.sklearn.load_model(model_export_path)
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/mlflow/sklearn/__init__.py", line 627, in load_model
+    flavor_conf = _get_flavor_configuration(model_path=local_model_path, flavor_name=FLAVOR_NAME)
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/mlflow/utils/model_utils.py", line 61, in _get_flavor_configuration
+    return Model.load(model_path).flavors[flavor_name]
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/mlflow/models/model.py", line 596, in load
+    with open(path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/artifacts/model_export:v0/MLmodel'

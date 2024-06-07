@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ca8f681f70d3478780ccf55af8601652/artifacts
+end_time: 1716662666416
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca8f681f70d3478780ccf55af8601652
+run_name: persistent-shark-80
+run_uuid: ca8f681f70d3478780ccf55af8601652
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662641809
+status: 3
+tags: []
+user_id: meirof

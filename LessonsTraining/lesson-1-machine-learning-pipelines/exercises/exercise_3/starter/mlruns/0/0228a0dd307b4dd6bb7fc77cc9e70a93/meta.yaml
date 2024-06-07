@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/0228a0dd307b4dd6bb7fc77cc9e70a93/artifacts
+end_time: 1715806714704
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0228a0dd307b4dd6bb7fc77cc9e70a93
+run_name: youthful-ram-99
+run_uuid: 0228a0dd307b4dd6bb7fc77cc9e70a93
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715806712779
+status: 4
+tags: []
+user_id: meirof

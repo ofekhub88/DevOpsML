@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/56ca95fe94d744d2b8b28078cd1d50ee/artifacts
+end_time: 1716401730926
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56ca95fe94d744d2b8b28078cd1d50ee
+run_name: abrasive-wolf-779
+run_uuid: 56ca95fe94d744d2b8b28078cd1d50ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716401729513
+status: 4
+tags: []
+user_id: meirof

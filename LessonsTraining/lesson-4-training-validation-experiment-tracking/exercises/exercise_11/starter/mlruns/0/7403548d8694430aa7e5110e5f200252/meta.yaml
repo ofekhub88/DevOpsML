@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/7403548d8694430aa7e5110e5f200252/artifacts
+end_time: 1716660351163
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7403548d8694430aa7e5110e5f200252
+run_name: sneaky-stag-714
+run_uuid: 7403548d8694430aa7e5110e5f200252
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716660349109
+status: 4
+tags: []
+user_id: meirof

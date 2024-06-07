@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/08b09f2123834d5a907bb55241cf7c43/artifacts
+end_time: 1716659419680
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 08b09f2123834d5a907bb55241cf7c43
+run_name: rumbling-newt-739
+run_uuid: 08b09f2123834d5a907bb55241cf7c43
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716659417902
+status: 4
+tags: []
+user_id: meirof

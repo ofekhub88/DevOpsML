@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/e9d1434130e54e56986e894fdb33e89c/artifacts
+end_time: 1716666656978
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e9d1434130e54e56986e894fdb33e89c
+run_name: vaunted-bird-26
+run_uuid: e9d1434130e54e56986e894fdb33e89c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716666618363
+status: 4
+tags: []
+user_id: meirof

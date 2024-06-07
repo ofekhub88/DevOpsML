@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/solution/mlruns/0/076f366d51ed461798f2af76c415f4b7/artifacts
+end_time: 1716554668942
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 076f366d51ed461798f2af76c415f4b7
+run_name: gentle-yak-269
+run_uuid: 076f366d51ed461798f2af76c415f4b7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716554667019
+status: 4
+tags: []
+user_id: meirof

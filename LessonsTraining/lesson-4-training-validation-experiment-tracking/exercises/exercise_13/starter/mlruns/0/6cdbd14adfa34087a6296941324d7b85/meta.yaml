@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/6cdbd14adfa34087a6296941324d7b85/artifacts
+end_time: 1717150182973
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6cdbd14adfa34087a6296941324d7b85
+run_name: secretive-grouse-357
+run_uuid: 6cdbd14adfa34087a6296941324d7b85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717150168680
+status: 4
+tags: []
+user_id: meirof

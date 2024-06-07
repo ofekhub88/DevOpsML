@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c50537ecebe54664a2371ea1ea1dadaa/artifacts
+end_time: 1716663859393
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c50537ecebe54664a2371ea1ea1dadaa
+run_name: dashing-bird-634
+run_uuid: c50537ecebe54664a2371ea1ea1dadaa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663831192
+status: 3
+tags: []
+user_id: meirof

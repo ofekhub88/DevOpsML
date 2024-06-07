@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/727d45c4b16f44caa68807d7aa5c4bd9/artifacts
+end_time: 1716661520412
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 727d45c4b16f44caa68807d7aa5c4bd9
+run_name: resilient-fowl-556
+run_uuid: 727d45c4b16f44caa68807d7aa5c4bd9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661500652
+status: 3
+tags: []
+user_id: meirof

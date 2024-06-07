@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/0534f8e2702f44229505762e6cef27de/artifacts
+end_time: 1716663378815
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0534f8e2702f44229505762e6cef27de
+run_name: smiling-bear-113
+run_uuid: 0534f8e2702f44229505762e6cef27de
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663348899
+status: 3
+tags: []
+user_id: meirof

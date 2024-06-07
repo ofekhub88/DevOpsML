@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/f7c9ec01f9c04c56a2f2080bbd4a6752/artifacts
+end_time: 1716661326406
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f7c9ec01f9c04c56a2f2080bbd4a6752
+run_name: big-lark-404
+run_uuid: f7c9ec01f9c04c56a2f2080bbd4a6752
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661306530
+status: 3
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/solution/mlruns/0/ae8e2af5fd984604985cfb9a62d86c9c/artifacts
+end_time: 1716554712767
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ae8e2af5fd984604985cfb9a62d86c9c
+run_name: auspicious-ox-258
+run_uuid: ae8e2af5fd984604985cfb9a62d86c9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716554699518
+status: 3
+tags: []
+user_id: meirof

@@ -1,0 +1,52 @@
+2024-05-31 21:26:35 ERROR Traceback (most recent call last):
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/public/api.py", line 975, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 268, in _from_name
+    raise ValueError(f"project '{project}' not found under entity '{entity}'")
+ValueError: project 'genre_classification_prod' not found under entity 'ofekm88'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/cli/cli.py", line 108, in wrapper
+    return func(*args, **kwargs)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/cli/cli.py", line 2514, in get
+    artifact = public_api.artifact(full_path, type=type)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/public/api.py", line 975, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 268, in _from_name
+    raise ValueError(f"project '{project}' not found under entity '{entity}'")
+wandb.errors.CommError: project 'genre_classification_prod' not found under entity 'ofekm88'
+
+2024-05-31 21:28:22 ERROR Traceback (most recent call last):
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/public/api.py", line 975, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 268, in _from_name
+    raise ValueError(f"project '{project}' not found under entity '{entity}'")
+ValueError: project '' not found under entity 'exercise_14'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/cli/cli.py", line 108, in wrapper
+    return func(*args, **kwargs)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/cli/cli.py", line 2514, in get
+    artifact = public_api.artifact(full_path, type=type)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/normalize.py", line 87, in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/apis/public/api.py", line 975, in artifact
+    artifact = wandb.Artifact._from_name(
+  File "/home/meirof/miniconda3.10/envs/udacity/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 268, in _from_name
+    raise ValueError(f"project '{project}' not found under entity '{entity}'")
+wandb.errors.CommError: project '' not found under entity 'exercise_14'
+

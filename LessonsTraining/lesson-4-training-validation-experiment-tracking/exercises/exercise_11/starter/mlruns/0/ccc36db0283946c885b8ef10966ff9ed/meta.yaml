@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/ccc36db0283946c885b8ef10966ff9ed/artifacts
+end_time: 1716663913301
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ccc36db0283946c885b8ef10966ff9ed
+run_name: shivering-wasp-540
+run_uuid: ccc36db0283946c885b8ef10966ff9ed
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663886199
+status: 3
+tags: []
+user_id: meirof

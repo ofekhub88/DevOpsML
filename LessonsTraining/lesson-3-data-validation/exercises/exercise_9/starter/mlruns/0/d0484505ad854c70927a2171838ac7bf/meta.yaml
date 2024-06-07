@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/d0484505ad854c70927a2171838ac7bf/artifacts
+end_time: 1716553586051
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d0484505ad854c70927a2171838ac7bf
+run_name: rumbling-panda-737
+run_uuid: d0484505ad854c70927a2171838ac7bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716553570381
+status: 4
+tags: []
+user_id: meirof

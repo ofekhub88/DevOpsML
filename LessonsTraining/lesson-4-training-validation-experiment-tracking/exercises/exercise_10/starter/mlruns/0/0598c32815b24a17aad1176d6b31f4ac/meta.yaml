@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/0598c32815b24a17aad1176d6b31f4ac/artifacts
+end_time: 1716624287763
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0598c32815b24a17aad1176d6b31f4ac
+run_name: fun-flea-699
+run_uuid: 0598c32815b24a17aad1176d6b31f4ac
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716624251768
+status: 3
+tags: []
+user_id: meirof

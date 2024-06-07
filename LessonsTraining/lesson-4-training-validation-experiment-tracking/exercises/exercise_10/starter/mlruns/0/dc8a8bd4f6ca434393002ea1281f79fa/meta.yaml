@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/dc8a8bd4f6ca434393002ea1281f79fa/artifacts
+end_time: 1716623518902
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dc8a8bd4f6ca434393002ea1281f79fa
+run_name: burly-yak-736
+run_uuid: dc8a8bd4f6ca434393002ea1281f79fa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716623472850
+status: 4
+tags: []
+user_id: meirof

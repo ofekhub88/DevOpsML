@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/923ca183b58340638088e2da69827143/artifacts
+end_time: 1716623842621
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 923ca183b58340638088e2da69827143
+run_name: victorious-ram-206
+run_uuid: 923ca183b58340638088e2da69827143
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716623827918
+status: 4
+tags: []
+user_id: meirof

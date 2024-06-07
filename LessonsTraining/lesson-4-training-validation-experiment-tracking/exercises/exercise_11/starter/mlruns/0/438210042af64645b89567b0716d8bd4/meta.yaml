@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/438210042af64645b89567b0716d8bd4/artifacts
+end_time: 1716662361582
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 438210042af64645b89567b0716d8bd4
+run_name: burly-donkey-641
+run_uuid: 438210042af64645b89567b0716d8bd4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662343456
+status: 3
+tags: []
+user_id: meirof

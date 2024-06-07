@@ -1,0 +1,27 @@
+name: download_data
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      input_artifact:
+        description: "input artifact "
+        type: str
+        default: 'exercise_5/genres_mod.parquet:latest'
+      artifact_name:
+        description: "output artifact name of clean proccess"
+        type: str
+        default: 'preprocessed_data.csv'
+      artifact_type:
+        description: "input artifact "
+        type: str
+        default: 'raw_data'
+      artifact_description:
+        description: "cleaned data  "
+        type: str
+        default: 'cleaned data after preproccess'
+    command: >-
+      python run.py --input_artifact {input_artifact} \
+                     --artifact_name {artifact_name} \
+                     --artifact_type {artifact_type} \
+                     --artifact_description {artifact_description}

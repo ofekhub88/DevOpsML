@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_10/starter/mlruns/0/9f64e7a181e44f23be6e3a89106d2a9c/artifacts
+end_time: 1716623093909
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9f64e7a181e44f23be6e3a89106d2a9c
+run_name: bustling-sow-272
+run_uuid: 9f64e7a181e44f23be6e3a89106d2a9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716623092173
+status: 4
+tags: []
+user_id: meirof

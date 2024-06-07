@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/3929ec8e0526456b84a23564163e7372/artifacts
+end_time: 1716553214731
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3929ec8e0526456b84a23564163e7372
+run_name: dazzling-swan-23
+run_uuid: 3929ec8e0526456b84a23564163e7372
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716553190634
+status: 4
+tags: []
+user_id: meirof

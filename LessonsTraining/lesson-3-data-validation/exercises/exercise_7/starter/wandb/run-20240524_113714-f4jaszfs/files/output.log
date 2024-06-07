@@ -1,0 +1,16 @@
+[1mcollected 3 items                                                                                                                                                       
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names Index(['danceability', 'energy', 'key', 'loudness', 'mode', 'speechiness',
+       'acousticness', 'instrumentalness', 'liveness', 'valence', 'tempo',
+       'type', 'duration_ms', 'time_signature', 'genre', 'song_name', 'title',
+       'text_feature'],
+      dtype='object')
+[32mPASSED
+test_data.py::test_column_ranges [32mPASSED
+[33m=========================================================================== warnings summary ============================================================================
+test_data.py::test_class_names
+  /home/meirof/miniconda3.10/envs/mlflow-cbe7e3177b373180c02c2befa2b72a3e103ffb72/lib/python3.9/site-packages/pandas/core/algorithms.py:485: DeprecationWarning: np.find_common_type is deprecated.  Please use `np.result_type` or `np.promote_types`.
+  See https://numpy.org/devdocs/release/1.25.0-notes.html and the docs for more information.  (Deprecated NumPy 1.25)
+    common = np.find_common_type([values.dtype, comps.dtype], [])
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+[33m===================================================================== [32m3 passed[39m, [33m[1m1 warning[22m in 5.50s ======================================================================

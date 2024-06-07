@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/04e13fccaef64bf4a1b2d7004b321fae/artifacts
+end_time: 1716662504759
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 04e13fccaef64bf4a1b2d7004b321fae
+run_name: calm-dove-440
+run_uuid: 04e13fccaef64bf4a1b2d7004b321fae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662482643
+status: 3
+tags: []
+user_id: meirof

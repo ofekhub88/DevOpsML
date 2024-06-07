@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/4b0cdd5977ff46cf8c5c6257cde94585/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4b0cdd5977ff46cf8c5c6257cde94585
+run_name: sedate-calf-192
+run_uuid: 4b0cdd5977ff46cf8c5c6257cde94585
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715852711017
+status: 1
+tags: []
+user_id: meirof

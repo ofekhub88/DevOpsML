@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/501554eb2ec24803981512c1fbe468a8/artifacts
+end_time: 1717150026638
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 501554eb2ec24803981512c1fbe468a8
+run_name: luxuriant-zebra-479
+run_uuid: 501554eb2ec24803981512c1fbe468a8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717150013632
+status: 4
+tags: []
+user_id: meirof

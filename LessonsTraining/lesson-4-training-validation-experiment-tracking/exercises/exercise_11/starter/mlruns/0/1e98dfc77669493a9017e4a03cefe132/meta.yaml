@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/1e98dfc77669493a9017e4a03cefe132/artifacts
+end_time: 1716662381807
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1e98dfc77669493a9017e4a03cefe132
+run_name: abundant-shrew-207
+run_uuid: 1e98dfc77669493a9017e4a03cefe132
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662361865
+status: 3
+tags: []
+user_id: meirof

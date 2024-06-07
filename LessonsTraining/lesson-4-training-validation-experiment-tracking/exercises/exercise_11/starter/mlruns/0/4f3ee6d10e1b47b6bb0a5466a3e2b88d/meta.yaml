@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/4f3ee6d10e1b47b6bb0a5466a3e2b88d/artifacts
+end_time: 1716663077696
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f3ee6d10e1b47b6bb0a5466a3e2b88d
+run_name: judicious-cod-846
+run_uuid: 4f3ee6d10e1b47b6bb0a5466a3e2b88d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663049495
+status: 3
+tags: []
+user_id: meirof

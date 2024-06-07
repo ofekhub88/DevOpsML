@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/205c2e5eaced46419d8da40256a68326/artifacts
+end_time: 1716662189191
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 205c2e5eaced46419d8da40256a68326
+run_name: glamorous-bee-369
+run_uuid: 205c2e5eaced46419d8da40256a68326
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662167361
+status: 3
+tags: []
+user_id: meirof

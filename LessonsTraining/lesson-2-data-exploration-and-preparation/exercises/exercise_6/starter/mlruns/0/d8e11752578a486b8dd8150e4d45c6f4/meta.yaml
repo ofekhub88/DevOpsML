@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/d8e11752578a486b8dd8150e4d45c6f4/artifacts
+end_time: 1716401591048
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8e11752578a486b8dd8150e4d45c6f4
+run_name: dashing-snake-434
+run_uuid: d8e11752578a486b8dd8150e4d45c6f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716401589539
+status: 4
+tags: []
+user_id: meirof

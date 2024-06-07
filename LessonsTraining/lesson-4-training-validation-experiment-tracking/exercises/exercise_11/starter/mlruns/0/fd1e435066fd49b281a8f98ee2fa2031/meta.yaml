@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/fd1e435066fd49b281a8f98ee2fa2031/artifacts
+end_time: 1716663268049
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd1e435066fd49b281a8f98ee2fa2031
+run_name: treasured-gnu-780
+run_uuid: fd1e435066fd49b281a8f98ee2fa2031
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663250295
+status: 3
+tags: []
+user_id: meirof

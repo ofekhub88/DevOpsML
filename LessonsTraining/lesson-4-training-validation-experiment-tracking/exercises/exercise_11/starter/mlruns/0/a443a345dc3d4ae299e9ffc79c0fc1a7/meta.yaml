@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/a443a345dc3d4ae299e9ffc79c0fc1a7/artifacts
+end_time: 1716661667024
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a443a345dc3d4ae299e9ffc79c0fc1a7
+run_name: calm-fox-831
+run_uuid: a443a345dc3d4ae299e9ffc79c0fc1a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661206163
+status: 4
+tags: []
+user_id: meirof

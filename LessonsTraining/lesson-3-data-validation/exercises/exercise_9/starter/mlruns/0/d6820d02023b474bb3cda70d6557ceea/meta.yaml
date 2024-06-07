@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/d6820d02023b474bb3cda70d6557ceea/artifacts
+end_time: 1716553347175
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d6820d02023b474bb3cda70d6557ceea
+run_name: marvelous-ray-406
+run_uuid: d6820d02023b474bb3cda70d6557ceea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716553336095
+status: 4
+tags: []
+user_id: meirof

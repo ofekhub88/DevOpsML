@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/4979b7dfa681462bbf05227c40f7ab40/artifacts
+end_time: 1716662617357
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4979b7dfa681462bbf05227c40f7ab40
+run_name: intelligent-gull-245
+run_uuid: 4979b7dfa681462bbf05227c40f7ab40
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662595421
+status: 3
+tags: []
+user_id: meirof

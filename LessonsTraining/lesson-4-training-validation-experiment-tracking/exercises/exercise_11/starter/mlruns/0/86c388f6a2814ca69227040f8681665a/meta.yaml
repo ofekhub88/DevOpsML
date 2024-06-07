@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/86c388f6a2814ca69227040f8681665a/artifacts
+end_time: 1716661650775
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 86c388f6a2814ca69227040f8681665a
+run_name: luxuriant-pig-916
+run_uuid: 86c388f6a2814ca69227040f8681665a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661623733
+status: 3
+tags: []
+user_id: meirof

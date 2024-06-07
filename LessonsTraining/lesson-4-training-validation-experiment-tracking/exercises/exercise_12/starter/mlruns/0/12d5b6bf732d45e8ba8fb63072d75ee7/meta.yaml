@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/12d5b6bf732d45e8ba8fb63072d75ee7/artifacts
+end_time: 1716666656759
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12d5b6bf732d45e8ba8fb63072d75ee7
+run_name: brawny-sheep-430
+run_uuid: 12d5b6bf732d45e8ba8fb63072d75ee7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716666620453
+status: 4
+tags: []
+user_id: meirof

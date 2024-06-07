@@ -1,0 +1,143 @@
+[1m========================================================================== test session starts ==========================================================================
+platform linux -- Python 3.9.19, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter
+[1mcollected 1 item                                                                                                                                                        
+test_data.py::test_kolmogorov_smirnov [31mERROR
+================================================================================ ERRORS =================================================================================
+[31m[1m_______________________________________________________________ ERROR at setup of test_kolmogorov_smirnov _______________________________________________________________
+args = (<wandb.apis.public.api.Api object at 0x7f74e8ce52e0>,), kwargs = {'name': 'exercise_6/data_train.csv:lates', 'type': None}
+message = "artifact 'data_train.csv:lates' not found in 'ofekm88/exercise_6'", payload = "artifact 'data_train.csv:lates' not found in 'ofekm88/exercise_6'"
+    @wraps(func)
+    def wrapper(*args, **kwargs):
+        message = "Whoa, you found a bug."
+        try:
+>           return func(*args, **kwargs)
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/apis/normalize.py[39m[22m:41:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+self = <wandb.apis.public.api.Api object at 0x7f74e8ce52e0>, name = 'exercise_6/data_train.csv:lates', type = None
+    @normalize_exceptions
+    def artifact(self, name, type=None):
+        """Return a single artifact by parsing path in the form `entity/project/name`.
+        Arguments:
+            name: (str) An artifact name. May be prefixed with entity/project. Valid names
+                can be in the following forms:
+                    name:version
+                    name:alias
+            type: (str, optional) The type of artifact to fetch.
+        Returns:
+            A `Artifact` object.
+        """
+        if name is None:
+            raise ValueError("You must specify name= to fetch an artifact.")
+        entity, project, artifact_name = self._parse_artifact_path(name)
+>       artifact = wandb.Artifact._from_name(
+            entity, project, artifact_name, self.client
+        )
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/apis/public/api.py[39m[22m:975:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+cls = <class 'wandb.sdk.artifacts.artifact.Artifact'>, entity = 'ofekm88', project = 'exercise_6', name = 'data_train.csv:lates'
+client = <wandb.apis.public.api.RetryingClient object at 0x7f74e8ced6a0>
+    @classmethod
+    def _from_name(
+        cls, entity: str, project: str, name: str, client: RetryingClient
+    ) -> "Artifact":
+        query = gql(
+            """
+            query ArtifactByName(
+                $entityName: String!,
+                $projectName: String!,
+                $name: String!
+            ) {
+                project(name: $projectName, entityName: $entityName) {
+                    artifact(name: $name) {
+                        ...ArtifactFragment
+                    }
+                }
+            }
+            """
+            + cls._get_gql_artifact_fragment()
+        )
+        response = client.execute(
+            query,
+            variable_values={
+                "entityName": entity,
+                "projectName": project,
+                "name": name,
+            },
+        )
+        project_attrs = response.get("project")
+        if not project_attrs:
+            raise ValueError(f"project '{project}' not found under entity '{entity}'")
+        attrs = project_attrs.get("artifact")
+        if not attrs:
+>           raise ValueError(f"artifact '{name}' not found in '{entity}/{project}'")
+[31m[1mE           ValueError: artifact 'data_train.csv:lates' not found in 'ofekm88/exercise_6'
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/sdk/artifacts/artifact.py[39m[22m:271: ValueError
+[33mDuring handling of the above exception, another exception occurred:
+request = <SubRequest 'data' for <Function test_kolmogorov_smirnov>>
+    @pytest.fixture(scope="session")
+    def data(request):
+        reference_artifact = request.config.option.reference_artifact
+        if reference_artifact is None:
+            pytest.fail("--reference_artifact missing on command line")
+        sample_artifact = request.config.option.sample_artifact
+        if sample_artifact is None:
+            pytest.fail("--sample_artifact missing on command line")
+>       local_path = run.use_artifact(reference_artifact).file()
+[31m[1mconftest.py[39m[22m:29:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/sdk/wandb_run.py[39m[22m:400: in wrapper_fn
+    return func(self, *args, **kwargs)
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/sdk/wandb_run.py[39m[22m:390: in wrapper
+    return func(self, *args, **kwargs)
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/sdk/wandb_run.py[39m[22m:2930: in use_artifact
+    artifact = public_api.artifact(type=type, name=name)
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/apis/normalize.py[39m[22m:87: in wrapper
+    raise CommError(message, err).with_traceback(sys.exc_info()[2])
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/apis/normalize.py[39m[22m:41: in wrapper
+    return func(*args, **kwargs)
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/apis/public/api.py[39m[22m:975: in artifact
+    artifact = wandb.Artifact._from_name(
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+cls = <class 'wandb.sdk.artifacts.artifact.Artifact'>, entity = 'ofekm88', project = 'exercise_6', name = 'data_train.csv:lates'
+client = <wandb.apis.public.api.RetryingClient object at 0x7f74e8ced6a0>
+    @classmethod
+    def _from_name(
+        cls, entity: str, project: str, name: str, client: RetryingClient
+    ) -> "Artifact":
+        query = gql(
+            """
+            query ArtifactByName(
+                $entityName: String!,
+                $projectName: String!,
+                $name: String!
+            ) {
+                project(name: $projectName, entityName: $entityName) {
+                    artifact(name: $name) {
+                        ...ArtifactFragment
+                    }
+                }
+            }
+            """
+            + cls._get_gql_artifact_fragment()
+        )
+        response = client.execute(
+            query,
+            variable_values={
+                "entityName": entity,
+                "projectName": project,
+                "name": name,
+            },
+        )
+        project_attrs = response.get("project")
+        if not project_attrs:
+            raise ValueError(f"project '{project}' not found under entity '{entity}'")
+        attrs = project_attrs.get("artifact")
+        if not attrs:
+>           raise ValueError(f"artifact '{name}' not found in '{entity}/{project}'")
+[31m[1mE           wandb.errors.CommError: artifact 'data_train.csv:lates' not found in 'ofekm88/exercise_6'
+[31m[1m/home/meirof/miniconda3.10/envs/mlflow-acbfa4ee4aa9be3158264a605e4861dd8a78622b/lib/python3.9/site-packages/wandb/sdk/artifacts/artifact.py[39m[22m:271: CommError
+======================================================================== short test summary info ========================================================================
+ERROR test_data.py::test_kolmogorov_smirnov - wandb.errors.CommError: artifact 'data_train.csv:lates' not found in 'ofekm88/exercise_6'
+[31m=========================================================================== [1m1 error[22m in 2.14s ============================================================================

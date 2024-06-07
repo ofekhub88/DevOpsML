@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/830c347dc3ac40899e7d9d1efea88cdb/artifacts
+end_time: 1716660449189
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 830c347dc3ac40899e7d9d1efea88cdb
+run_name: trusting-bear-795
+run_uuid: 830c347dc3ac40899e7d9d1efea88cdb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716660431343
+status: 3
+tags: []
+user_id: meirof

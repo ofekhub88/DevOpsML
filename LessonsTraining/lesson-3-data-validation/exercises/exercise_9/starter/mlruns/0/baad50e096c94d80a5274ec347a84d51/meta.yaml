@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/baad50e096c94d80a5274ec347a84d51/artifacts
+end_time: 1716553868331
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: baad50e096c94d80a5274ec347a84d51
+run_name: caring-bug-852
+run_uuid: baad50e096c94d80a5274ec347a84d51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716553853408
+status: 3
+tags: []
+user_id: meirof

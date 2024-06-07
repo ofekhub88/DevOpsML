@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/145391a2439840bb9b5f64def79b53c8/artifacts
+end_time: 1715836862436
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 145391a2439840bb9b5f64def79b53c8
+run_name: polite-dog-115
+run_uuid: 145391a2439840bb9b5f64def79b53c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715836360914
+status: 4
+tags: []
+user_id: meirof

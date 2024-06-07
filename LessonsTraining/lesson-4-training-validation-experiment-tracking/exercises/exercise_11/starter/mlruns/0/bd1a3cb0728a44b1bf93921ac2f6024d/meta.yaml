@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/bd1a3cb0728a44b1bf93921ac2f6024d/artifacts
+end_time: 1716664197942
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd1a3cb0728a44b1bf93921ac2f6024d
+run_name: melodic-loon-444
+run_uuid: bd1a3cb0728a44b1bf93921ac2f6024d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716664166822
+status: 3
+tags: []
+user_id: meirof

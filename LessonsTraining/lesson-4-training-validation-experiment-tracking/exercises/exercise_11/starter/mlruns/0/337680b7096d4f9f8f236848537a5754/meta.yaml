@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/337680b7096d4f9f8f236848537a5754/artifacts
+end_time: 1716661248771
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 337680b7096d4f9f8f236848537a5754
+run_name: dashing-perch-121
+run_uuid: 337680b7096d4f9f8f236848537a5754
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661230932
+status: 3
+tags: []
+user_id: meirof

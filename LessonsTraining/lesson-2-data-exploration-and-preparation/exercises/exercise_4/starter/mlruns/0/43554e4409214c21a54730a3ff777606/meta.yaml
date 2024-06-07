@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/mlruns/0/43554e4409214c21a54730a3ff777606/artifacts
+end_time: 1715855038129
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 43554e4409214c21a54730a3ff777606
+run_name: adorable-bass-998
+run_uuid: 43554e4409214c21a54730a3ff777606
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715854957049
+status: 4
+tags: []
+user_id: meirof

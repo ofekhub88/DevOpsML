@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/741d8aed21fe4c0485d09b676ca62d41/artifacts
+end_time: 1716662324508
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 741d8aed21fe4c0485d09b676ca62d41
+run_name: salty-finch-202
+run_uuid: 741d8aed21fe4c0485d09b676ca62d41
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662304481
+status: 3
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/7e2358ef91b248ecba0eef801ec3b694/artifacts
+end_time: 1716662079784
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7e2358ef91b248ecba0eef801ec3b694
+run_name: zealous-owl-240
+run_uuid: 7e2358ef91b248ecba0eef801ec3b694
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662061186
+status: 3
+tags: []
+user_id: meirof

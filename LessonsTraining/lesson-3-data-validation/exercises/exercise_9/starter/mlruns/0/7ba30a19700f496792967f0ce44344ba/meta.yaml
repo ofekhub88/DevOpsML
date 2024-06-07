@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/7ba30a19700f496792967f0ce44344ba/artifacts
+end_time: 1716553431830
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ba30a19700f496792967f0ce44344ba
+run_name: youthful-ant-795
+run_uuid: 7ba30a19700f496792967f0ce44344ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716553419879
+status: 4
+tags: []
+user_id: meirof

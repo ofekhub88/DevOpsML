@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/8e27ee23c5684bb48b39f32b03619caf/artifacts
+end_time: 1716660467493
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e27ee23c5684bb48b39f32b03619caf
+run_name: enchanting-goose-847
+run_uuid: 8e27ee23c5684bb48b39f32b03619caf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716660398096
+status: 3
+tags: []
+user_id: meirof

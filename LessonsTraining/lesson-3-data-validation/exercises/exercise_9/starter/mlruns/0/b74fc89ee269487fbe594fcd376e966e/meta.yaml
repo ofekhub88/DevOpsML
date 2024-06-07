@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/b74fc89ee269487fbe594fcd376e966e/artifacts
+end_time: 1716554113991
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b74fc89ee269487fbe594fcd376e966e
+run_name: thundering-ant-537
+run_uuid: b74fc89ee269487fbe594fcd376e966e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716554096413
+status: 3
+tags: []
+user_id: meirof

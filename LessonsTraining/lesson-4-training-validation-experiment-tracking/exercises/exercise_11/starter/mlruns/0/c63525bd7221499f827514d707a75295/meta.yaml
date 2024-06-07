@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/c63525bd7221499f827514d707a75295/artifacts
+end_time: 1716663830870
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c63525bd7221499f827514d707a75295
+run_name: adventurous-mare-408
+run_uuid: c63525bd7221499f827514d707a75295
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663812746
+status: 3
+tags: []
+user_id: meirof

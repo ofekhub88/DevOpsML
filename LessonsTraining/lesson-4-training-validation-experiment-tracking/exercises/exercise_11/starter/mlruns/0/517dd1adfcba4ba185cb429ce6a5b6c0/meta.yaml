@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/517dd1adfcba4ba185cb429ce6a5b6c0/artifacts
+end_time: 1716661367399
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 517dd1adfcba4ba185cb429ce6a5b6c0
+run_name: enthused-colt-628
+run_uuid: 517dd1adfcba4ba185cb429ce6a5b6c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716661347043
+status: 3
+tags: []
+user_id: meirof

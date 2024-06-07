@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/fc39289d604d4366b4d3e4552d7512ff/artifacts
+end_time: 1716662167083
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fc39289d604d4366b4d3e4552d7512ff
+run_name: nervous-grouse-142
+run_uuid: fc39289d604d4366b4d3e4552d7512ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662146992
+status: 3
+tags: []
+user_id: meirof

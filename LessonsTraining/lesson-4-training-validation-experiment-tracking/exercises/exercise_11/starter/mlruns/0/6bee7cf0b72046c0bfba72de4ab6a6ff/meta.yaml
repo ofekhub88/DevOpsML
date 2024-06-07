@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/6bee7cf0b72046c0bfba72de4ab6a6ff/artifacts
+end_time: 1716663435203
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6bee7cf0b72046c0bfba72de4ab6a6ff
+run_name: caring-conch-666
+run_uuid: 6bee7cf0b72046c0bfba72de4ab6a6ff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663407181
+status: 3
+tags: []
+user_id: meirof

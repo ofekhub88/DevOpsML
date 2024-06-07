@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/e8dcfbc2cfed4c13addbdf205461b551/artifacts
+end_time: 1716663885901
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e8dcfbc2cfed4c13addbdf205461b551
+run_name: sincere-owl-412
+run_uuid: e8dcfbc2cfed4c13addbdf205461b551
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716663859700
+status: 3
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-2-data-exploration-and-preparation/exercises/exercise_5/starter/mlruns/0/ead0ffae4d5240339b2b31e31212ee85/artifacts
+end_time: 1715852668212
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ead0ffae4d5240339b2b31e31212ee85
+run_name: thundering-ox-979
+run_uuid: ead0ffae4d5240339b2b31e31212ee85
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715852666368
+status: 4
+tags: []
+user_id: meirof

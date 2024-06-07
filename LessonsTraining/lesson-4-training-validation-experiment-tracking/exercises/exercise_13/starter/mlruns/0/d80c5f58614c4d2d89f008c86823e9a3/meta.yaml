@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/mlruns/0/d80c5f58614c4d2d89f008c86823e9a3/artifacts
+end_time: 1717150067170
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d80c5f58614c4d2d89f008c86823e9a3
+run_name: abrasive-stag-289
+run_uuid: d80c5f58614c4d2d89f008c86823e9a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717150052889
+status: 4
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/730bf933b3e54647856aac998b8794ab/artifacts
+end_time: 1716666204188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 730bf933b3e54647856aac998b8794ab
+run_name: clean-smelt-193
+run_uuid: 730bf933b3e54647856aac998b8794ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716666164570
+status: 4
+tags: []
+user_id: meirof

@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/aa0f1ab3f3054fc390dba30976c3aca3/artifacts
+end_time: 1716662060888
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa0f1ab3f3054fc390dba30976c3aca3
+run_name: masked-bug-898
+run_uuid: aa0f1ab3f3054fc390dba30976c3aca3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662040721
+status: 3
+tags: []
+user_id: meirof

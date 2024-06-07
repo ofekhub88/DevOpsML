@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/d8bf3509373d4255b775cfc43b50efd2/artifacts
+end_time: 1716664037779
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d8bf3509373d4255b775cfc43b50efd2
+run_name: bold-jay-56
+run_uuid: d8bf3509373d4255b775cfc43b50efd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716664007033
+status: 3
+tags: []
+user_id: meirof

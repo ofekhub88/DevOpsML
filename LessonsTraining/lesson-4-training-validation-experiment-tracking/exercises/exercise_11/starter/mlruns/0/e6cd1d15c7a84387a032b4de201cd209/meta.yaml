@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/e6cd1d15c7a84387a032b4de201cd209/artifacts
+end_time: 1716662125621
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e6cd1d15c7a84387a032b4de201cd209
+run_name: thundering-chimp-880
+run_uuid: e6cd1d15c7a84387a032b4de201cd209
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662102643
+status: 3
+tags: []
+user_id: meirof

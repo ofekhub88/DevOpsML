@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_12/starter/mlruns/0/7bf2f2407840469bb640da1ae2cd7013/artifacts
+end_time: 1716666352496
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7bf2f2407840469bb640da1ae2cd7013
+run_name: funny-stork-284
+run_uuid: 7bf2f2407840469bb640da1ae2cd7013
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716666247365
+status: 4
+tags: []
+user_id: meirof

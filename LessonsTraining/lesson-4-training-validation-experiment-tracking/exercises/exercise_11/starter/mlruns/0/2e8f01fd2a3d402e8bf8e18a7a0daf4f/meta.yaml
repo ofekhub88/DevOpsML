@@ -1,0 +1,15 @@
+artifact_uri: file:///mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/2e8f01fd2a3d402e8bf8e18a7a0daf4f/artifacts
+end_time: 1716662146726
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2e8f01fd2a3d402e8bf8e18a7a0daf4f
+run_name: rare-hare-34
+run_uuid: 2e8f01fd2a3d402e8bf8e18a7a0daf4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716662125927
+status: 3
+tags: []
+user_id: meirof

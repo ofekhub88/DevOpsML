@@ -1,0 +1,22 @@
+2024-05-31 13:06:59,869 Downloading and reading test artifact
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Traceback (most recent call last):
+  File "run.py", line 87, in <module>
+    go(args)
+  File "run.py", line 21, in go
+    df = pd.read_csv(test_data_path, low_memory=False)
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/home/meirof/miniconda3.10/envs/mlflow-53790dc1f2a806e684e12c9c6bfc6b38661c51e7/lib/python3.8/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+IsADirectoryError: [Errno 21] Is a directory: '/mnt/c/wsl/mount/Udacity/DevOpsML/LessonsTraining/lesson-4-training-validation-experiment-tracking/exercises/exercise_13/starter/artifacts/data_test.csv:v1'
