@@ -36,10 +36,10 @@ def merge_multiple_dataframe():
     df = pd.DataFrame()
     csv_files = ""
     for file in files:
-        csv_files += file + "/n "
+        csv_files += file + "\n "
         df = pd.concat([df, pd.read_csv(input_folder_path + file)], ignore_index=True)
         
-    with open(output_folder_path + 'ingestedfiles.txt', 'w') as f:
+    with open(output_folder_path + 'ingestedfiles.txt', 'a') as f:
         f.write(csv_files)
     # remove duplicate records 
     df = df.drop_duplicates()

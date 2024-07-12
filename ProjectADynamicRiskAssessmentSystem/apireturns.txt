@@ -1,0 +1,52 @@
+prediction: [1 1 1 0 1]
+prediction: [1 1 1 0 1]
+prediction: [1 1 1 0 1]
+prediction: [1 1 1 0 1]
+prediction: [1 1 1 0 1]
+prediction: [1 1 1 0 1]
+score: b'0.57'
+summary statistics: {'lastmonth_activity': [{'mean': 165.65384615384616}, {'median': 73.0}, {'std': 284.0332293669447}], 'lastyear_activity': [{'mean': 1502.923076923077}, {'median': 955.0}, {'std': 2192.6449584568304}], 'number_of_employees': [{'mean': 26.884615384615383}, {'median': 14.0}, {'std': 31.353885785435814}], 'exited': [{'mean': 0.5769230769230769}, {'median': 1.0}, {'std': 0.5038314736557788}]}
+diagnostics: {'timing': {'ingestion': 0.05429623706731945, 'training': 0.021211336948908865}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+prediction: [1 1 1 1 1]
+score: b'0.570.670.670.670.670.670.69'
+score: b'0.570.670.670.670.670.670.69'
+score: b'0.570.670.670.670.670.670.69'
+score: b'0.570.670.670.670.670.670.69'
+score: b'0.570.670.670.670.670.670.69'
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.01994473500235472, 'training': 0.01874557600240223}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.02962438100075815, 'training': 0.018266933009726927}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.02508386899717152, 'training': 0.012425838998751715}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.020654066000133753, 'training': 0.011815466001280583}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.026845861997571774, 'training': 0.010427811008412391}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.020342398012871854, 'training': 0.013379711992456578}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.025277013002778403, 'training': 0.015471878999960609}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.02099003600596916, 'training': 0.00989432301139459}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.022880085001816042, 'training': 0.008801905991276726}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+score: b'0.570.670.670.670.670.670.69'
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.06942898700071964, 'training': 0.04005661098926794}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}
+prediction: [1 1 1 1 1]
+prediction: [1 1 1 1 1]
+score: b'0.570.670.670.670.670.670.69'
+prediction: [1 1 1 1 1]
+summary statistics: {'lastmonth_activity': [{'mean': 5625.923076923077}, {'median': 425.0}, {'std': 19444.774621317832}], 'lastyear_activity': [{'mean': 763.5384615384615}, {'median': 97.5}, {'std': 2016.6093569309696}], 'number_of_employees': [{'mean': 457.46153846153845}, {'median': 99.0}, {'std': 800.604832899189}], 'exited': [{'mean': 0.5}, {'median': 0.5}, {'std': 0.5099019513592785}]}
+diagnostics: {'timing': {'ingestion': 0.021235412990790792, 'training': 0.01701169100124389}, 'missing_data': '{"lastmonth_activity":0.0,"lastyear_activity":0.0,"number_of_employees":0.0,"exited":0.0}'}

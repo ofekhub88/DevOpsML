@@ -60,3 +60,6 @@ def train_model():
     # write the trained model to your workspace in a file called trainedmodel.pkl
     with open(model_path + "/" + "trainedmodel.pkl", "wb") as f:
         pickle.dump(model, f)
+
+if __name__ == "__main__":
+    train_model()
